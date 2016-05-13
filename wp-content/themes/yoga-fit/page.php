@@ -62,7 +62,20 @@ if (have_posts()) : the_post();
 	
 	comments_template();
 endif;
+echo '<div id="sign-up-form" class="mfp-hide">
+    <div id="sign-up-right">
+        <img src="http://95.213.237.235/wp-content/uploads/2016/05/sign-up-form.png" />
+    </div>
+    <div id="sign-up-left">
+    <h2 class="black-header">WANT THE POWER</h2>
+    <h2 class="grey-header">MIND, BODY &amp; SOUL</h2>
+    <h3 class="black-header">SIGN UP NOW</h3>
+    ';
 
+    dynamic_sidebar('sign-in-form');
+
+echo '</div>
+</div>';
 
 echo '</div>' . "\n" . 
 '<!-- _________________________ Finish Content _________________________ -->' . "\n\n";

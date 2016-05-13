@@ -46,7 +46,8 @@ function register_css_styles() {
 		
 		wp_register_style('isotope', get_template_directory_uri() . '/css/jquery.isotope.css', array(), '1.5.26', 'screen');
 		
-		
+		wp_enqueue_style('magnific-popup', get_template_directory_uri() . '/css/magnific-popup.css');
+
 		if ( 
 			is_a($post, 'WP_Post') && 
 			strpos($post->post_content, '[cmsms_portfolio ') 
@@ -287,7 +288,7 @@ function register_js_scripts() {
 			
 			wp_enqueue_script('gMap', get_template_directory_uri() . '/js/jquery.gMap.min.js', array('jquery', 'gMapAPI'), '3.2.0', true);
 		// }
-		
+		wp_enqueue_script('magnific', get_template_directory_uri() . '/js/jquery.magnific-popup.min.js', array('jquery'), '0.9.9', true);
 		
 		// WooCommerce scripts
 		if (CMSMS_WOOCOMMERCE) {
@@ -486,6 +487,13 @@ function the_widgets_init() {
     	array(
     		'name' => 'Footer area 2',
     		'id' => 'footer2'
+    	)
+    );
+
+    register_sidebar(
+    	array(
+    		'name' => 'Sign in form',
+    		'id' => 'sign-in-form'
     	)
     );
 	

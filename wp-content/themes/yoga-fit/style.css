@@ -8491,6 +8491,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 .know-more-btn {
   margin-left: 20%;
+  margin-top: -20px;
 }
 
 .header-grey-text {
@@ -9027,4 +9028,83 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 #header, .headline {
   background-color: #fff;
+}
+
+#sign-up-form {
+  position: relative;
+  background: #FFF;
+  padding: 0;
+  width: auto;
+  max-width: 1000px;
+  height: 599px;
+  margin: 40px auto;
+}
+
+#sign-up-right {
+  float: right;
+  width: 560px;
+}
+
+#sign-up-left {
+  width: 440px;
+  padding: 80px 55px 35px;
+  text-align: center;
+}
+
+#sign-up-left h2, #sign-up-left h3 {
+  margin: 0;
+  /*font-family: 'Oswald';*/
+}
+
+#sign-up-left h2 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+#sign-up-left h2.grey-header {
+  color: #727272;
+  margin-bottom: 10px;
+}
+
+#sign-up-left h2.black-header {
+  color: #000;
+}
+
+#sign-up-left h3 {
+  font-size: 22px;
+  color: #000;
+  font-weight: bold;
+}
+
+#sign-up-form li.widget_text {
+  list-style-type: none;
+}
+
+.es_lablebox {
+  float: left;
+}
+
+.es_textbox {
+  border-bottom: 1px solid #bfbfbf;
+}
+
+#es_txt_email {
+  border: none;
+  margin-top: -10px;
+}
+
+.es_msg {
+  margin-top: 30px;
+}
+
+.es_button {
+  text-align: center;
+  margin-top: 60px;
+}
+
+#es_txt_button {
+  border-color: #fee900;
+  background-color: #fee900;
+  color: #7c7c7c;
 }
