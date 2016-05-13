@@ -1,0 +1,107 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Yoga Fit
+ * @version		1.0.0
+ * 
+ * Theme Icons
+ * Created by CMSMasters
+ * 
+ */
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('fonts/fontello.eot?13836975');
+  src: url('fonts/fontello.eot?13836975#iefix') format('embedded-opentype'),
+       url('fonts/fontello.woff?13836975') format('woff'),
+       url('fonts/fontello.ttf?13836975') format('truetype'),
+       url('fonts/fontello.svg?13836975#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('fonts/fontello.svg?13836975#fontello') format('svg');
+  }
+}
+*/
+ 
+[class^="cmsms_theme_icon_"]:before, 
+[class*=" cmsms_theme_icon_"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  vertical-align: baseline;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.cmsms_theme_icon_sticky_post:before { content: '\ec78'; } /* Sticky post format icon */
+.cmsms_theme_icon_standard_post:before { content: '\eab3'; } /* Standard post format icon */
+.cmsms_theme_icon_aside_post:before { content: '\eab0'; } /* Aside post format icon */
+.cmsms_theme_icon_audio_post:before { content: '\eab2'; } /* Audio post format icon */
+.cmsms_theme_icon_chat_post:before { content: '\eabb'; } /* Chat post format icon */
+.cmsms_theme_icon_gallery_post:before { content: '\eabc'; } /* Gallery post format icon */
+.cmsms_theme_icon_image_post:before { content: '\eabc'; } /* Image post format icon */
+.cmsms_theme_icon_link_post:before { content: '\ef4d'; } /* Link post format icon */
+.cmsms_theme_icon_quote_post:before { content: '\eab5'; } /* Quote post format icon */
+.cmsms_theme_icon_status_post:before { content: '\eab1'; } /* Status post format icon */
+.cmsms_theme_icon_video_post:before { content: '\eab4'; } /* Video post format icon */
+
+.cmsms_theme_icon_item_link:before { content: '\ea99'; } /* Open item icon */
+.cmsms_theme_icon_lightbox:before { content: '\ea95'; } /* Open lightbox icon */
+
+.cmsms_theme_icon_pencil:before { content: '\ec7d'; } /* post format icon */
+.cmsms_theme_icon_video:before { content: '\ec75'; } /* post format icon */
+.cmsms_theme_icon_photo:before { content: '\ec77'; } /* post format icon */
+
+.cmsms_theme_icon_comment:before { content: '\eab5'; } /* comments in post */
+.cmsms_theme_icon_heart:before { content: '\ef4b'; } /* likes in posts */
+.cmsms_theme_icon_calendar:before { content: '\ec86'; } /* date in posts */
+
+.cmsms_theme_icon_basket:before { content: '\ef68'; } /* shop cart */
+.cmsms_theme_icon_details:before { content: '\e892'; } /* shop details */
+.cmsms_theme_icon_star_empty:before { content: '\ee4a'; } /* rating empty star */
+.cmsms_theme_icon_star_full:before { content: '\ee4a'; } /* rating full star */
+
+.cmsms_theme_icon_user_mail:before { content: '\ed8a'; } /* mail in user info (open post) */
+.cmsms_theme_icon_user_website:before { content: '\ea08'; } /* website in user info (open post) */
+.cmsms_theme_icon_user_gplus:before { content: '\ec10'; } /* google plus in user info (open post) */
+.cmsms_theme_icon_user_twitter:before { content: '\ec37'; } /* twitter in user info (open post) */
+.cmsms_theme_icon_user_facebook:before { content: '\ec47'; } /* facebook in user info (open post) */
+
+.cmsms_theme_icon_search:before { content: '\ea76'; } /* all search */
+.cmsms_theme_icon_cancel:before { content: '\ea86'; } /* cancel (notice) */
+.cmsms_theme_icon_resp_nav:before { content: '\ea84'; } /* resp nav */
+.cmsms_theme_icon_slide_top:before { content: '\e9d1'; } /* slide top */
+

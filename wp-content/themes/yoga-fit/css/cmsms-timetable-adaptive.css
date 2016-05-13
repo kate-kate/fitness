@@ -1,0 +1,70 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Yoga Fit
+ * @version 	1.0.0
+ * 
+ * Responsive Timetable CSS Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/*-------------------------------------------------------------------------
+
+	1.	Large Monitor
+	2.	Medium Monitor
+	3.	Tablet Monitor
+	4.	Tablet Monitor 950
+	5.	Small Tablet Monitor
+	6.	Phone Monitor
+
+-------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1440px) {
+  .cmsms_tt_event {
+    outline: none;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .cmsms_tt_event {
+    outline: none;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .cmsms_tt_event {
+    outline: none;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .cmsms_tt_event .cmsms_tt_event_content_wrap.with_sidebar {
+    width: 100%;
+    float: none;
+    clear: both;
+    padding-right: 0;
+    padding-bottom: 25px;
+  }
+  .cmsms_tt_event .cmsms_tt_event_sidebar {
+    width: 100%;
+    float: none;
+    clear: both;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .tt_timetable {
+    display: none;
+  }
+  .tt_timetable.small {
+    display: block;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .cmsms_tt_event {
+    outline: none;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .cmsms_tt_event {
+    outline: none;
+  }
+}

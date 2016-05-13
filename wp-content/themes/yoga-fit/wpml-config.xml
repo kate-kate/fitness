@@ -1,0 +1,19 @@
+<wpml-config>
+    <admin-texts>
+        <key name="cmsms_options_yoga-fit_style_header">
+            <key name="yoga-fit_header_top_line_short_info" />
+        </key>
+        <key name="cmsms_options_yoga-fit_style_footer">
+            <key name="yoga-fit_footer_html" />
+            <key name="yoga-fit_footer_copyright" />
+        </key>
+        <key name="cmsms_options_yoga-fit_single_project">
+            <key name="yoga-fit_portfolio_project_details_title" />
+        </key>
+        <key name="cmsms_options_yoga-fit_single_profile">
+            <key name="yoga-fit_profile_post_details_title" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

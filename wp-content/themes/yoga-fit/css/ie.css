@@ -1,0 +1,101 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Yoga Fit
+ * @version		1.0.0
+ * 
+ * Custom CSS Rules for Internet Explorer < 9
+ * Created by CMSMasters
+ * 
+ */
+
+@media only screen and (max-width: 767px) {
+	
+	.one_fifth+.four_fifth,
+	.one_fifth+.one_fifth+.three_fifth,
+	.one_fifth+.one_fifth+.one_fifth+.two_fifth,
+	.one_fifth+.one_fifth+.one_fifth+.one_fifth+.one_fifth,
+	.one_fifth+.three_fifth+.one_fifth,
+	.four_fifth+.one_fifth,
+	.three_fifth+.one_fifth+.one_fifth,
+	.two_fifth+.one_fifth+.one_fifth+.one_fifth,
+	.three_fifth+.two_fifth,
+	.one_fifth+.two_fifth+.two_fifth,
+	.two_fifth+.one_fifth+.two_fifth,
+	.two_fifth+.two_fifth+.one_fifth,
+	.two_fifth+.three_fifth,
+	.one_sixth+.five_sixth,
+	.five_sixth+.one_sixth,
+	.one_sixth+.one_sixth+.one_sixth+.one_sixth+.one_sixth+.one_sixth,
+	.one_sixth+.one_sixth+.one_sixth+.one_sixth+.one_third,
+	.one_sixth+.one_sixth+.one_sixth+.one_third+.one_sixth,
+	.one_sixth+.one_sixth+.one_third+.one_sixth+.one_sixth,
+	.one_sixth+.one_third+.one_sixth+.one_sixth+.one_sixth,
+	.one_third+.one_sixth+.one_sixth+.one_sixth+.one_sixth,
+	.one_sixth+.one_sixth+.one_sixth+.one_half,
+	.one_sixth+.one_sixth+.one_half+.one_sixth,
+	.one_sixth+.one_half+.one_sixth+.one_sixth,
+	.one_half+.one_sixth+.one_sixth+.one_sixth,
+	.one_sixth+.one_sixth+.two_third,
+	.one_sixth+.two_third+.one_sixth,
+	.two_third+.one_sixth+.one_sixth,
+	.one_third+.one_half+.one_sixth,
+	.one_sixth+.one_third+.one_half,
+	.one_half+.one_third+.one_sixth,
+	.one_half+.one_sixth+.one_third,
+	.one_third+.one_half+.one_sixth,
+	.one_third+.one_third+.one_sixth+.one_sixth,
+	.one_third+.one_sixth+.one_third+.one_sixth,
+	.one_third+.one_sixth+.one_sixth+.one_third,
+	.one_sixth+.one_sixth+.one_third+.one_third,
+	.one_sixth+.one_third+.one_sixth+.one_third,
+	.one_fourth+.one_fourth+.one_third+.one_sixth,
+	.one_third+.one_fourth+.one_fourth+.one_sixth,
+	.one_third+.one_sixth+.one_fourth+.one_fourth,
+	.one_fourth+.one_third+.one_fourth+.one_sixth,
+	.one_fourth+.one_third+.one_sixth+.one_fourth,
+	.one_third+.one_fourth+.one_sixth+.one_fourth,
+	.one_sixth+.one_third+.one_fourth+.one_fourth,
+	.one_sixth+.one_fourth+.one_third+.one_fourth,
+	.one_fourth+.one_sixth+.one_third+.one_fourth,
+	.one_fourth+.one_sixth+.one_fourth+.one_third,
+	.one_fourth+.one_fourth+.one_sixth+.one_third,
+	.one_fourth+.one_fourth+.one_sixth+.one_sixth+.one_sixth,
+	.one_fourth+.one_sixth+.one_fourth+.one_sixth+.one_sixth,
+	.one_fourth+.one_sixth+.one_sixth+.one_fourth+.one_sixth,
+	.one_fourth+.one_sixth+.one_sixth+.one_sixth+.one_fourth,
+	.one_sixth+.one_fourth+.one_sixth+.one_sixth+.one_fourth,
+	.one_sixth+.one_sixth+.one_fourth+.one_sixth+.one_fourth,
+	.one_sixth+.one_sixth+.one_sixth+.one_fourth+.one_fourth,
+	.one_sixth+.one_sixth+.one_fourth+.one_fourth+.one_sixth,
+	.one_sixth+.one_fourth+.one_fourth+.one_sixth+.one_sixth,
+	.one_sixth+.one_fourth+.one_sixth+.one_fourth+.one_sixth,
+	.one_sixth,
+	.one_fifth,
+	.two_fifth,
+	.three_fifth,
+	.four_fifth,
+	.five_sixth,
+	.one_fourth, 
+	.one_fourth.last,  
+	.one_fourth+.one_fourth, 
+	.one_fourth+.one_fourth+.one_fourth, 
+	.one_fourth+.one_fourth+.one_fourth+.one_fourth, 
+	.portfolio_container.four_blocks .portfolio, 
+	.portfolio_container.three_blocks .portfolio, 
+	.portfolio_container.two_blocks .portfolio, 
+	.project.four_blocks .resize .cmsms_media_box, 
+	.project.three_blocks .resize .cmsms_media_box, 
+	.project.two_blocks .resize .cmsms_media_box, 
+	.post_type_shortcode.four_blocks article, 
+	.post_type_shortcode.three_blocks article, 
+	.post_type_shortcode.two_blocks article, 
+	.cms_archive > li, 
+	.sitemap_category > li, 
+	.sitemap > li > ul > li {
+		width:100%;
+		float:none;
+		padding-right:0;
+	}
+	
+}
+

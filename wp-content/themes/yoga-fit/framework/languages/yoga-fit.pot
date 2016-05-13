@@ -1,0 +1,4344 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yoga Fit 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-30 10:34+0200\n"
+"PO-Revision-Date: 2015-09-30 10:34+0200\n"
+"Last-Translator: cmsmasters <cmsmstrs@gmail.com>\n"
+"Language-Team: yoga-fit <cmsmstrs@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:30
+msgid "We're sorry, but the page you were looking for doesn't exist."
+msgstr ""
+
+#: 404.php:39
+msgid "Sitemap"
+msgstr ""
+
+#: archive.php:35
+#: author.php:36
+#: search.php:33
+msgid "No posts found"
+msgstr ""
+
+#: archive.php:69
+msgid "by"
+msgstr ""
+
+#: archive.php:70
+#: search.php:68
+msgid "Posts by"
+msgstr ""
+
+#: archive.php:76
+#: archive.php:81
+#: image.php:28
+msgid "in"
+msgstr ""
+
+#: archive.php:89
+msgid "tags"
+msgstr ""
+
+#: archive.php:95
+#: search.php:106
+msgid "Comment on"
+msgstr ""
+
+#: archive.php:102
+#: search.php:119
+msgid "Read More"
+msgstr ""
+
+#: comments.php:14
+msgid "Please do not load this page directly. Thanks!"
+msgstr ""
+
+#: comments.php:19
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:31
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:31
+msgid "Comment"
+msgstr ""
+
+#: comments.php:31
+msgid "Comments"
+msgstr ""
+
+#: comments.php:40
+#: comments.php:68
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45
+#: comments.php:73
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:86
+msgid "Name"
+msgstr ""
+
+#: comments.php:86
+#: comments.php:89
+msgid "Required"
+msgstr ""
+
+#: comments.php:89
+msgid "Email"
+msgstr ""
+
+#: comments.php:92
+msgid "Website"
+msgstr ""
+
+#: comments.php:106
+msgid "You must be"
+msgstr ""
+
+#: comments.php:108
+msgid "logged in"
+msgstr ""
+
+#: comments.php:110
+msgid "to post a comment"
+msgstr ""
+
+#: comments.php:113
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:117
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:118
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:122
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:127
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:128
+msgid "Leave your comment to"
+msgstr ""
+
+#: comments.php:129
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:130
+msgid "Submit Comment"
+msgstr ""
+
+#: event-template.php:183
+msgid "Categories"
+msgstr ""
+
+#: functions.php:50
+msgid "None"
+msgstr ""
+
+#: functions.php:163
+msgid "Custom 1"
+msgstr ""
+
+#: functions.php:164
+msgid "Custom 2"
+msgstr ""
+
+#: functions.php:165
+msgid "Custom 3"
+msgstr ""
+
+#: functions.php:166
+msgid "Custom 4"
+msgstr ""
+
+#: functions.php:167
+msgid "Custom 5"
+msgstr ""
+
+#: functions.php:244
+msgid "Square"
+msgstr ""
+
+#: functions.php:250
+msgid "Masonry Blog"
+msgstr ""
+
+#: functions.php:256
+msgid "Project"
+msgstr ""
+
+#: functions.php:261
+msgid "Masonry Project"
+msgstr ""
+
+#: functions.php:267
+msgid "Featured"
+msgstr ""
+
+#: functions.php:272
+msgid "Masonry"
+msgstr ""
+
+#: functions.php:278
+msgid "Full"
+msgstr ""
+
+#: functions.php:284
+msgid "Project Full"
+msgstr ""
+
+#: functions.php:289
+msgid "Masonry Full"
+msgstr ""
+
+#: functions.php:302
+msgid "Default"
+msgstr ""
+
+#: functions.php:303
+msgid "Header"
+msgstr ""
+
+#: functions.php:304
+msgid "Header Top"
+msgstr ""
+
+#: functions.php:305
+msgid "Header Bottom"
+msgstr ""
+
+#: functions.php:306
+msgid "Footer"
+msgstr ""
+
+#: image.php:26
+msgid "Edit Media"
+msgstr ""
+
+#: image.php:28
+msgid "Published"
+msgstr ""
+
+#: image.php:28
+msgid "at"
+msgstr ""
+
+#: image.php:38
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next &rarr;"
+msgstr ""
+
+#: page.php:56
+msgid "Pages"
+msgstr ""
+
+#: search.php:67
+msgid "By"
+msgstr ""
+
+#: search.php:82
+msgid "In "
+msgstr ""
+
+#: search.php:99
+msgid "Tags "
+msgstr ""
+
+#: searchform.php:16
+msgid "Type Keywords..."
+msgstr ""
+
+#: single-profile.php:39
+msgid "Share this profile?"
+msgstr ""
+
+#: single-project.php:45
+#: single.php:67
+msgid "About author"
+msgstr ""
+
+#: single.php:62
+msgid "Share this post?"
+msgstr ""
+
+#: sitemap.php:69
+msgid "Website Pages"
+msgstr ""
+
+#: sitemap.php:82
+msgid "Blog Archives by Categories"
+msgstr ""
+
+#: sitemap.php:102
+msgid "Blog Archives by Tags"
+msgstr ""
+
+#: sitemap.php:115
+msgid "Blog Archives by Month"
+msgstr ""
+
+#: sitemap.php:131
+msgid "Portfolio Archives by Categories"
+msgstr ""
+
+#: sitemap.php:147
+msgid "Portfolio Archives by Tags"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:43
+msgid "Disable"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:44
+msgid "Custom Title Font"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:45
+msgid "Custom Title Font Family"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:46
+msgid "Custom Title Font Size"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:47
+msgid "Custom Title Font Weight"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:48
+msgid "Custom Title Font Style"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:49
+msgid "Custom Title Color"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:50
+msgid "Custom Counter Font"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:51
+msgid "Custom Counter Font Family"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:52
+msgid "Custom Counter Font Size"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:53
+msgid "Custom Counter Font Weight"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:54
+msgid "Fullwidth Slider mode"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:55
+msgid "Menu"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:56
+msgid "Menu Offer"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:57
+msgid "Menu offers"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:58
+msgid "Here you can add, edit, remove or sort menu offers"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:59
+msgid "Enter this menu offer title"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:60
+msgid "Price"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:61
+msgid "Enter this menu offer price"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:62
+msgid "Currency"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:63
+msgid "Enter this menu offer currency"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:64
+msgid "Ingredients"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:65
+msgid "Add menu offer ingredients"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:66
+msgid "Best Offer"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:67
+msgid "If checked, this menu offer will be highlighted"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:68
+msgid "Best Offer recommendation"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:69
+msgid "Enter this menu offer recommendation"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:70
+msgid "Best Offer Border Color"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:71
+msgid "Choose border color for this menu best offer"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:72
+msgid "Font size for small tablet"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:73
+msgid "Tablet font size"
+msgstr ""
+
+#: cmsms-c-c/filters/cmsms-c-c-atts-filters.php:74
+msgid "Tablet line height"
+msgstr ""
+
+#: cmsms-c-c/shortcodes/cmsms-twitter.php:56
+msgid "ago"
+msgstr ""
+
+#: cmsms-c-c/shortcodes/cmsms-twitter.php:63
+msgid "Please add your Twitter API keys"
+msgstr ""
+
+#: cmsms-c-c/shortcodes/cmsms-twitter.php:63
+msgid "read more how"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:36
+msgid "Choose image"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:37
+msgid "Insert image"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:38
+msgid "Remove"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:39
+msgid "Edit gallery"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:46
+msgid "Cancel"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:47
+msgid "Insert"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:48
+msgid "Deselect"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:49
+msgid "Choose Icon"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:50
+msgid "Find icons"
+msgstr ""
+
+#: framework/admin/inc/admin-scripts.php:51
+msgid ""
+"Error on page!\n"
+"Reload page and try again."
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:114
+msgid "Theme Required & Recommended Plugins"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:115
+msgid "Theme Plugins"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:116
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:117
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:178
+msgid "Return to Theme Required & Recommended Plugins"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:179
+msgid "Return to the dashboard"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:180
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:181
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:182
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:183
+#, php-format
+msgid "Plugin not activated. A higher version of %1$s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:184
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:185
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/admin/inc/plugin-activator.php:186
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:56
+msgid "Campaign"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:62
+msgid "Layout"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:69
+msgid "Background"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:76
+msgid "Heading"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:94
+msgid "Campaign Target"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:95
+msgid "do not add currency symbol"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:106
+msgid "Campaign Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:107
+#: framework/admin/options/cmsms-theme-options-campaign.php:115
+#: framework/admin/options/cmsms-theme-options-campaign.php:123
+#: framework/admin/options/cmsms-theme-options-campaign.php:170
+msgid "Show"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:114
+msgid "Sharing Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:122
+msgid "About Author Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:130
+msgid "More Campaigns Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:138
+msgid "Show Related Tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:142
+msgid "Show Popular Tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:146
+msgid "Show Recent Tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:161
+msgid "Page Color Scheme"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:169
+msgid "Bottom Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:177
+msgid "Choose Bottom Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-campaign.php:185
+msgid "Choose Bottom Sidebar Layout"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:29
+msgid "Donation"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:35
+msgid "Donator"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:73
+msgid "Amount"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:84
+msgid "Recurrence"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:85
+msgid "Choose whether and how often you want to repeat this donation"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:92
+msgid "Not recurring"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:96
+msgid "Weekly"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:100
+msgid "Monthly"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:104
+msgid "Yearly"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:119
+msgid "Hide Donator Information?"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:120
+msgid "Yes"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:136
+msgid "First Name"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:144
+msgid "Last Name"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:160
+msgid "Company"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:168
+msgid "Address"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:176
+msgid "City"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:184
+msgid "State / Province"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:192
+msgid "Postal / Zip Code"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:200
+msgid "Country"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:208
+msgid "Phone Number"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:311
+msgid "About Donator Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-donation.php:340
+msgid "No special campaign"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:47
+msgid "Use Default"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:54
+#: framework/admin/settings/cmsms-theme-settings-color.php:101
+#: framework/admin/settings/cmsms-theme-settings-color.php:249
+#: framework/admin/settings/cmsms-theme-settings-general.php:290
+#: framework/admin/settings/cmsms-theme-settings-general.php:299
+#: framework/admin/settings/cmsms-theme-settings-style.php:197
+msgid "Background Color"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:62
+#: framework/admin/settings/cmsms-theme-settings-general.php:308
+#: framework/admin/settings/cmsms-theme-settings-style.php:206
+msgid "Background Image Visibility"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:70
+#: framework/admin/settings/cmsms-theme-settings-general.php:317
+#: framework/admin/settings/cmsms-theme-settings-style.php:215
+msgid "Background Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:81
+#: framework/admin/settings/cmsms-theme-settings-general.php:328
+#: framework/admin/settings/cmsms-theme-settings-style.php:226
+msgid "Background Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:89
+#: framework/admin/options/cmsms-theme-options-general.php:283
+#: framework/admin/settings/cmsms-theme-settings-general.php:333
+#: framework/admin/settings/cmsms-theme-settings-style.php:231
+#: framework/admin/settings/cmsms-theme-settings-style.php:513
+msgid "No Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:93
+#: framework/admin/options/cmsms-theme-options-general.php:287
+#: framework/admin/settings/cmsms-theme-settings-general.php:334
+#: framework/admin/settings/cmsms-theme-settings-style.php:232
+#: framework/admin/settings/cmsms-theme-settings-style.php:514
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:97
+#: framework/admin/options/cmsms-theme-options-general.php:291
+#: framework/admin/settings/cmsms-theme-settings-general.php:335
+#: framework/admin/settings/cmsms-theme-settings-style.php:233
+#: framework/admin/settings/cmsms-theme-settings-style.php:515
+msgid "Repeat Vertically"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:101
+#: framework/admin/options/cmsms-theme-options-general.php:295
+#: framework/admin/settings/cmsms-theme-settings-general.php:336
+#: framework/admin/settings/cmsms-theme-settings-style.php:234
+#: framework/admin/settings/cmsms-theme-settings-style.php:516
+msgid "Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:107
+#: framework/admin/settings/cmsms-theme-settings-general.php:343
+#: framework/admin/settings/cmsms-theme-settings-style.php:241
+msgid "Background Position"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:115
+#: framework/admin/settings/cmsms-theme-settings-general.php:348
+#: framework/admin/settings/cmsms-theme-settings-style.php:246
+msgid "Top Left"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:119
+#: framework/admin/settings/cmsms-theme-settings-general.php:349
+#: framework/admin/settings/cmsms-theme-settings-style.php:247
+msgid "Top Center"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:123
+#: framework/admin/settings/cmsms-theme-settings-general.php:350
+#: framework/admin/settings/cmsms-theme-settings-style.php:248
+msgid "Top Right"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:127
+#: framework/admin/settings/cmsms-theme-settings-general.php:351
+#: framework/admin/settings/cmsms-theme-settings-style.php:249
+msgid "Center Left"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:131
+#: framework/admin/settings/cmsms-theme-settings-general.php:352
+#: framework/admin/settings/cmsms-theme-settings-style.php:250
+msgid "Center Center"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:135
+#: framework/admin/settings/cmsms-theme-settings-general.php:353
+#: framework/admin/settings/cmsms-theme-settings-style.php:251
+msgid "Center Right"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:139
+#: framework/admin/settings/cmsms-theme-settings-general.php:354
+#: framework/admin/settings/cmsms-theme-settings-style.php:252
+msgid "Bottom Left"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:143
+#: framework/admin/settings/cmsms-theme-settings-general.php:355
+#: framework/admin/settings/cmsms-theme-settings-style.php:253
+msgid "Bottom Center"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:147
+#: framework/admin/settings/cmsms-theme-settings-general.php:356
+#: framework/admin/settings/cmsms-theme-settings-style.php:254
+msgid "Bottom Right"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:153
+#: framework/admin/settings/cmsms-theme-settings-general.php:363
+#: framework/admin/settings/cmsms-theme-settings-style.php:261
+msgid "Background Attachment"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:161
+#: framework/admin/options/cmsms-theme-options-general.php:309
+#: framework/admin/settings/cmsms-theme-settings-general.php:368
+#: framework/admin/settings/cmsms-theme-settings-style.php:266
+#: framework/admin/settings/cmsms-theme-settings-style.php:528
+msgid "Scroll"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:165
+#: framework/admin/options/cmsms-theme-options-general.php:313
+#: framework/admin/settings/cmsms-theme-settings-general.php:369
+#: framework/admin/settings/cmsms-theme-settings-style.php:267
+#: framework/admin/settings/cmsms-theme-settings-style.php:529
+msgid "Fixed"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:171
+#: framework/admin/settings/cmsms-theme-settings-general.php:376
+#: framework/admin/settings/cmsms-theme-settings-style.php:274
+msgid "Background Size"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:179
+#: framework/admin/options/cmsms-theme-options-general.php:327
+#: framework/admin/settings/cmsms-theme-settings-general.php:381
+#: framework/admin/settings/cmsms-theme-settings-style.php:279
+#: framework/admin/settings/cmsms-theme-settings-style.php:541
+msgid "Auto"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:183
+#: framework/admin/options/cmsms-theme-options-general.php:331
+#: framework/admin/settings/cmsms-theme-settings-general.php:382
+#: framework/admin/settings/cmsms-theme-settings-style.php:280
+#: framework/admin/settings/cmsms-theme-settings-style.php:542
+msgid "Cover"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:187
+#: framework/admin/options/cmsms-theme-options-general.php:335
+#: framework/admin/settings/cmsms-theme-settings-general.php:383
+#: framework/admin/settings/cmsms-theme-settings-style.php:281
+#: framework/admin/settings/cmsms-theme-settings-style.php:543
+msgid "Contain"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:214
+msgid "Custom"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:218
+msgid "Disabled"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:224
+msgid "Heading Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:232
+msgid "Heading Subtitle"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:240
+msgid "Heading Icon"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:241
+msgid "Choose your custom icon for this heading"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:248
+msgid "Heading Color Scheme"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:256
+msgid "Heading Background Image Visibility"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:264
+msgid "Heading Background Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:275
+msgid "Heading Background Repeat"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:301
+msgid "Heading Background Attachment"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:319
+msgid "Heading Background Size"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:341
+msgid "Heading Title Background Color Overlay"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:349
+msgid "Heading Title Height"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:350
+#: framework/admin/settings/cmsms-theme-settings-style.php:309
+#: framework/admin/settings/cmsms-theme-settings-style.php:385
+#: framework/admin/settings/cmsms-theme-settings-style.php:395
+#: framework/admin/settings/cmsms-theme-settings-style.php:560
+#: framework/admin/settings/cmsms-theme-settings-style.php:678
+msgid "pixels"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:360
+msgid "Standard Heading Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-general.php:368
+msgid "Breadcrumbs"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-other.php:72
+#: framework/admin/options/cmsms-theme-options-page.php:72
+#: framework/admin/options/cmsms-theme-options-post.php:279
+#: framework/admin/options/cmsms-theme-options-product.php:72
+msgid "Page Layout"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-other.php:81
+#: framework/admin/options/cmsms-theme-options-page.php:81
+#: framework/admin/options/cmsms-theme-options-post.php:288
+#: framework/admin/options/cmsms-theme-options-product.php:81
+#: framework/admin/settings/cmsms-theme-settings-single.php:108
+#: framework/admin/settings/cmsms-theme-settings-style.php:411
+#: framework/admin/settings/cmsms-theme-settings-style.php:425
+#: framework/admin/settings/cmsms-theme-settings-style.php:439
+#: framework/admin/settings/cmsms-theme-settings-style.php:454
+#: framework/admin/settings/cmsms-theme-settings-style.php:469
+msgid "Right Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-other.php:86
+#: framework/admin/options/cmsms-theme-options-page.php:86
+#: framework/admin/options/cmsms-theme-options-post.php:293
+#: framework/admin/options/cmsms-theme-options-product.php:86
+#: framework/admin/settings/cmsms-theme-settings-single.php:109
+#: framework/admin/settings/cmsms-theme-settings-style.php:412
+#: framework/admin/settings/cmsms-theme-settings-style.php:426
+#: framework/admin/settings/cmsms-theme-settings-style.php:440
+#: framework/admin/settings/cmsms-theme-settings-style.php:455
+#: framework/admin/settings/cmsms-theme-settings-style.php:470
+msgid "Left Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-other.php:91
+#: framework/admin/options/cmsms-theme-options-page.php:91
+#: framework/admin/options/cmsms-theme-options-post.php:298
+#: framework/admin/options/cmsms-theme-options-product.php:91
+#: framework/admin/settings/cmsms-theme-settings-single.php:110
+#: framework/admin/settings/cmsms-theme-settings-style.php:413
+#: framework/admin/settings/cmsms-theme-settings-style.php:427
+#: framework/admin/settings/cmsms-theme-settings-style.php:441
+#: framework/admin/settings/cmsms-theme-settings-style.php:456
+#: framework/admin/settings/cmsms-theme-settings-style.php:471
+msgid "Full Width"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-other.php:97
+#: framework/admin/options/cmsms-theme-options-page.php:97
+#: framework/admin/options/cmsms-theme-options-post.php:304
+#: framework/admin/options/cmsms-theme-options-product.php:97
+msgid "Choose Right\\Left Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:58
+#: framework/admin/settings/cmsms-theme-settings-single.php:17
+msgid "Post"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:91
+msgid "Post Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:112
+msgid "Post Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:132
+#: framework/admin/options/cmsms-theme-options-project.php:131
+msgid "Video Type"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:140
+#: framework/admin/options/cmsms-theme-options-project.php:139
+msgid "Embedded (YouTube, Vimeo)"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:144
+#: framework/admin/options/cmsms-theme-options-project.php:143
+msgid "Self-Hosted"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:150
+#: framework/admin/options/cmsms-theme-options-project.php:149
+msgid "Embedded Video Link"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:158
+#: framework/admin/options/cmsms-theme-options-project.php:157
+msgid "Self-Hosted Video Links"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:176
+msgid "Audio Links"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:208
+#: framework/admin/settings/cmsms-theme-settings-single.php:117
+msgid "Post Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:232
+#: framework/admin/options/cmsms-theme-options-project.php:370
+#: framework/admin/settings/cmsms-theme-settings-single.php:207
+msgid "More Posts Box"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:254
+#: framework/admin/options/cmsms-theme-options-profile.php:170
+msgid "'Read More' Buttons Text"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-post.php:255
+#: framework/admin/options/cmsms-theme-options-profile.php:171
+msgid "Enter the 'Read More' button text that should be used in you blog shortcode"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:22
+msgid "Profile details"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:36
+#: framework/admin/settings/cmsms-theme-settings-single.php:24
+msgid "Profile"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:74
+#: framework/admin/settings/cmsms-theme-settings-single.php:392
+msgid "Profile Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:82
+msgid "Subtitle"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:90
+#: framework/admin/settings/cmsms-theme-settings-single.php:401
+msgid "Profile Details Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:98
+#: framework/admin/settings/cmsms-theme-settings-style.php:27
+#: framework/admin/settings/cmsms-theme-settings-style.php:70
+#: framework/admin/settings/cmsms-theme-settings-style.php:660
+#: framework/admin/settings/cmsms-theme-settings-style.php:758
+msgid "Social Icons"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:99
+msgid "Add social icons for this profile"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:106
+msgid "Profile Info"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:114
+msgid "Profile Features 1 Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:122
+msgid "Profile Features 1"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:130
+msgid "Profile Features 2 Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:138
+msgid "Profile Features 2"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:146
+msgid "Profile Features 3 Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-profile.php:154
+msgid "Profile Features 3"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:22
+msgid "Project details"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:89
+msgid "Project Images"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:99
+msgid "Number of Columns"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:107
+msgid "Three"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:111
+msgid "Two"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:115
+msgid "One"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:180
+#: framework/admin/settings/cmsms-theme-settings-single.php:240
+msgid "Project Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:188
+msgid "Project Size"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:189
+msgid "Recomended Featured Image dimensions"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:258
+#: framework/admin/settings/cmsms-theme-settings-single.php:249
+msgid "Project Details Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:266
+msgid "Project Info"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:274
+msgid "Project Link Text"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:279
+msgid "View Project"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:282
+msgid "Project Link URL"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:291
+msgid "Redirect to project link URL instead of opening project page"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:298
+msgid "Project Link Target"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:299
+msgid "Open link in a new tab"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:306
+msgid "Project Features 1 Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:314
+msgid "Project Features 1"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:322
+msgid "Project Features 2 Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:330
+msgid "Project Features 2"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:338
+msgid "Project Features 3 Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-project.php:346
+msgid "Project Features 3"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-tt-event.php:37
+msgid "Event"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-tt-event.php:75
+#: framework/admin/settings/cmsms-theme-settings-single.php:584
+msgid "Event Hours"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-tt-event.php:76
+#: framework/admin/settings/cmsms-theme-settings-color.php:165
+#: framework/admin/settings/cmsms-theme-settings-color.php:304
+#: framework/admin/settings/cmsms-theme-settings-general.php:192
+#: framework/admin/settings/cmsms-theme-settings-general.php:226
+#: framework/admin/settings/cmsms-theme-settings-general.php:235
+#: framework/admin/settings/cmsms-theme-settings-general.php:244
+#: framework/admin/settings/cmsms-theme-settings-general.php:253
+#: framework/admin/settings/cmsms-theme-settings-general.php:262
+#: framework/admin/settings/cmsms-theme-settings-general.php:271
+#: framework/admin/settings/cmsms-theme-settings-general.php:309
+#: framework/admin/settings/cmsms-theme-settings-general.php:391
+#: framework/admin/settings/cmsms-theme-settings-general.php:400
+#: framework/admin/settings/cmsms-theme-settings-single.php:118
+#: framework/admin/settings/cmsms-theme-settings-single.php:127
+#: framework/admin/settings/cmsms-theme-settings-single.php:136
+#: framework/admin/settings/cmsms-theme-settings-single.php:145
+#: framework/admin/settings/cmsms-theme-settings-single.php:154
+#: framework/admin/settings/cmsms-theme-settings-single.php:163
+#: framework/admin/settings/cmsms-theme-settings-single.php:172
+#: framework/admin/settings/cmsms-theme-settings-single.php:181
+#: framework/admin/settings/cmsms-theme-settings-single.php:190
+#: framework/admin/settings/cmsms-theme-settings-single.php:199
+#: framework/admin/settings/cmsms-theme-settings-single.php:241
+#: framework/admin/settings/cmsms-theme-settings-single.php:260
+#: framework/admin/settings/cmsms-theme-settings-single.php:269
+#: framework/admin/settings/cmsms-theme-settings-single.php:278
+#: framework/admin/settings/cmsms-theme-settings-single.php:287
+#: framework/admin/settings/cmsms-theme-settings-single.php:296
+#: framework/admin/settings/cmsms-theme-settings-single.php:305
+#: framework/admin/settings/cmsms-theme-settings-single.php:314
+#: framework/admin/settings/cmsms-theme-settings-single.php:323
+#: framework/admin/settings/cmsms-theme-settings-single.php:332
+#: framework/admin/settings/cmsms-theme-settings-single.php:341
+#: framework/admin/settings/cmsms-theme-settings-single.php:393
+#: framework/admin/settings/cmsms-theme-settings-single.php:412
+#: framework/admin/settings/cmsms-theme-settings-single.php:421
+#: framework/admin/settings/cmsms-theme-settings-single.php:430
+#: framework/admin/settings/cmsms-theme-settings-single.php:439
+#: framework/admin/settings/cmsms-theme-settings-single.php:461
+#: framework/admin/settings/cmsms-theme-settings-single.php:470
+#: framework/admin/settings/cmsms-theme-settings-single.php:479
+#: framework/admin/settings/cmsms-theme-settings-single.php:488
+#: framework/admin/settings/cmsms-theme-settings-single.php:497
+#: framework/admin/settings/cmsms-theme-settings-single.php:506
+#: framework/admin/settings/cmsms-theme-settings-single.php:515
+#: framework/admin/settings/cmsms-theme-settings-single.php:524
+#: framework/admin/settings/cmsms-theme-settings-single.php:533
+#: framework/admin/settings/cmsms-theme-settings-single.php:585
+#: framework/admin/settings/cmsms-theme-settings-single.php:614
+#: framework/admin/settings/cmsms-theme-settings-style.php:176
+#: framework/admin/settings/cmsms-theme-settings-style.php:207
+#: framework/admin/settings/cmsms-theme-settings-style.php:300
+#: framework/admin/settings/cmsms-theme-settings-style.php:357
+#: framework/admin/settings/cmsms-theme-settings-style.php:366
+#: framework/admin/settings/cmsms-theme-settings-style.php:489
+#: framework/admin/settings/cmsms-theme-settings-style.php:570
+#: framework/admin/settings/cmsms-theme-settings-style.php:579
+#: framework/admin/settings/cmsms-theme-settings-style.php:598
+#: framework/admin/settings/cmsms-theme-settings-style.php:688
+#: framework/admin/settings/cmsms-theme-settings-style.php:719
+#: framework/admin/settings/cmsms-theme-settings-style.php:728
+msgid "show"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-tt-event.php:83
+#: framework/admin/settings/cmsms-theme-settings-single.php:593
+msgid "Event Hours Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-tt-event.php:91
+#: framework/admin/settings/cmsms-theme-settings-single.php:603
+msgid "Event Details Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options-tt-event.php:99
+msgid "Event Details"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:144
+#: framework/admin/options/cmsms-theme-options.php:843
+msgid "Create Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:145
+msgid "Please select the format."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:146
+msgid "Link with this format already exists."
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:147
+msgid "Do you realy want to remove this item?"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:150
+msgid "Do you realy want to remove this social icon?"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:383
+msgid "Default Sidebar"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:418
+msgid "Select Slider"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:435
+msgid "Select Blog Category"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:453
+msgid "Select Project Category"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:472
+msgid "Select Profile Category"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:505
+msgid "Choose Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:505
+msgid "Insert Image"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:550
+#: framework/admin/options/cmsms-theme-options.php:564
+msgid "Choose icon"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:551
+msgid "Remove icon"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:565
+msgid "Cancel changes"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:572
+msgid "Icon link"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:576
+msgid "Icon title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:580
+msgid "Open link in a new tab/window?"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:584
+msgid "Add Icon"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:585
+msgid "Save Icon"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:670
+#: framework/admin/options/cmsms-theme-options.php:739
+msgid "Title"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:671
+msgid "Link"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:708
+msgid "Blank Field"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:709
+msgid "Select Link"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:711
+msgid "Posts"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:725
+msgid "Projects"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:740
+msgid "Values"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:785
+msgid "Select Format"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:843
+msgid "Edit Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:843
+msgid "Create/Edit Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:843
+msgid "Insert Gallery"
+msgstr ""
+
+#: framework/admin/options/cmsms-theme-options.php:937
+msgid "Theme Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:38
+msgid "Color Scheme Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:65
+msgid "Text Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:66
+msgid "Font color for header text"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:74
+#: framework/admin/settings/cmsms-theme-settings-color.php:231
+msgid "Primary Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:75
+msgid "Font color for header headings, links, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:83
+#: framework/admin/settings/cmsms-theme-settings-color.php:240
+msgid "Rollover Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:84
+msgid "Font color for header links rollovers, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:92
+msgid "Subtitle Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:93
+msgid "Font color for navigation subtitle, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:102
+msgid "Header block background color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:110
+#: framework/admin/settings/cmsms-theme-settings-color.php:258
+msgid "Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:111
+msgid "Header block border color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:119
+#: framework/admin/settings/cmsms-theme-settings-color.php:267
+msgid "Dropdown Links Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:120
+msgid "Links color for header main navigation dropdown"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:128
+#: framework/admin/settings/cmsms-theme-settings-color.php:276
+msgid "Dropdown Rollover Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:129
+msgid "Font color for header links rollovers in main navigation dropdown, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:137
+msgid "Dropdown Subtitle Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:138
+msgid "Font color for navigation dropdown subtitle, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:146
+#: framework/admin/settings/cmsms-theme-settings-color.php:285
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:147
+msgid "Header block background color for main navigation dropdown"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:155
+msgid "Dropdown Border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:156
+msgid "Header block border color for main navigation dropdown"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:164
+#: framework/admin/settings/cmsms-theme-settings-color.php:303
+msgid "Dropdown Shadow"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:173
+#: framework/admin/settings/cmsms-theme-settings-color.php:312
+msgid "Dropdown Shadow Opacity"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:185
+msgid "Scrolled Primary Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:186
+msgid "Scrolled font color for header headings, links, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:194
+msgid "Scrolled Rollover Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:195
+msgid "Scrolled  font color for header links rollovers, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:203
+msgid "Scrolled Subtitle Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:204
+msgid "Scrolled font color for navigation subtitle, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:212
+msgid "Scrolled Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:213
+msgid "Scrolled header block background color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:222
+msgid "Content Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:223
+msgid "Font color for header top main content, headings, links, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:232
+msgid "Font color for header top headings, links, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:241
+msgid "Font color for header top links rollovers, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:250
+msgid "Header top block background color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:259
+msgid "Header top block border color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:268
+msgid "Links color for header top main navigation dropdown"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:277
+msgid "Font color for header top links rollovers in main navigation dropdown, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:286
+msgid "Header top block background color for main navigation dropdown"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:294
+msgid "Dropdown border Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:295
+msgid "Header top block border color for main navigation dropdown"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:323
+msgid "Main Content Font Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:324
+msgid "Font color for main content"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:332
+msgid "Primary Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:333
+msgid "Color for links and some other elements (e.g. buttons, icon boxes, ets.)"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:341
+msgid "Highlight Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:342
+#: framework/admin/settings/cmsms-theme-settings-color.php:351
+msgid "Color for links rollovers, etc"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:350
+msgid "Secondary Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:359
+msgid "Headings Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:360
+msgid "Color for headings and some other elements"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:368
+msgid "Main Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:369
+msgid "Main background color for some elements (e.g. tabs, toggles, ets.)"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:377
+msgid "Alternate Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:378
+msgid "Alternate background color for some elements (e.g. quotes, form fields, ets.)"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:386
+msgid "Borders Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-color.php:387
+msgid "Color for borders (e.g. dividers, form fields, ets.)"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:17
+msgid "Import"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:18
+msgid "Export"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:33
+msgid "Theme Settings Import"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:40
+msgid "Theme Settings Export"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:67
+#: framework/admin/settings/cmsms-theme-settings-demo.php:80
+msgid "Theme Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:68
+msgid "Enter your theme settings data here and click 'Import' button"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:81
+msgid "Click here to export your theme settings data to the file"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-demo.php:83
+msgid "Export Theme Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:16
+#: framework/admin/settings/cmsms-theme-settings-style.php:25
+msgid "Content"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:17
+msgid "Links"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:18
+msgid "Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:20
+msgid "Other"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:33
+msgid "Content Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:39
+msgid "Links Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:45
+msgid "Navigation Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:51
+msgid "Headings Font Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:57
+msgid "Other Fonts Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:84
+msgid "Main Content Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:110
+msgid "Links Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:138
+msgid "Links Hover Text Decoration"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:150
+msgid "Navigation Title Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:176
+msgid "Navigation Dropdown Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:204
+msgid "H1 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:232
+msgid "H2 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:260
+msgid "H3 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:288
+msgid "H4 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:316
+msgid "H5 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:344
+msgid "H6 Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:374
+msgid "Button Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:400
+msgid "Small Tag Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:426
+msgid "Text Fields Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-font.php:450
+msgid "Blockquote Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:16
+msgid "General"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:17
+msgid "Sidebars"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:19
+msgid "404"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:20
+msgid "Lightbox"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:21
+#: framework/admin/settings/cmsms-theme-settings-general.php:77
+msgid "Custom Codes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:23
+#: framework/admin/settings/cmsms-theme-settings-general.php:53
+msgid "WPML Installer"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:26
+msgid "reCAPTCHA"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:40
+msgid "General Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:46
+#: framework/admin/settings/cmsms-theme-settings-general.php:202
+msgid "Custom Sidebars"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:59
+msgid "Sitemap Page Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:65
+msgid "404 Error Page Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:71
+msgid "Theme Lightbox Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:83
+msgid "Form Builder Plugin reCAPTCHA Keys"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:106
+msgid "Theme Layout"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:111
+msgid "Liquid"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:112
+msgid "Boxed"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:119
+msgid "Responsive Layout"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:120
+#: framework/admin/settings/cmsms-theme-settings-general.php:129
+#: framework/admin/settings/cmsms-theme-settings-general.php:138
+#: framework/admin/settings/cmsms-theme-settings-style.php:149
+#: framework/admin/settings/cmsms-theme-settings-style.php:291
+#: framework/admin/settings/cmsms-theme-settings-style.php:669
+msgid "enable"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:128
+msgid "High Resolution"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:137
+msgid "Ajax Preloader"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:146
+msgid "Preloader Background Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:155
+msgid "Preloader Bar Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:164
+msgid "Preloader Animation Effect"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:169
+msgid "Grow"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:170
+msgid "Fade"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:171
+msgid "Minimal"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:172
+msgid "Flash"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:173
+msgid "Barber Shop"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:174
+msgid "Mac OSX"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:175
+msgid "Fill Left"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:176
+msgid "Flat Top"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:177
+msgid "Big Counter"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:178
+msgid "Corner Indicator"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:179
+msgid "Bounce"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:180
+msgid "Loading Bar"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:181
+msgid "Center Circle"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:182
+msgid "Center Atom"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:183
+msgid "Center Radar"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:184
+msgid "Center Simple"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:191
+msgid "Preloader Percentage"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:214
+msgid "Add WPML Plugin"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:281
+msgid "Text Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:318
+msgid "Choose your custom error page background image."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:390
+msgid "Search Line"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:399
+msgid "Sitemap Button"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:408
+msgid "Sitemap Page URL"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:420
+msgid "Skin"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:425
+msgid "Dark"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:426
+msgid "Light"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:427
+msgid "Mac"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:428
+msgid "Metro Black"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:429
+msgid "Metro White"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:430
+msgid "Parade"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:431
+msgid "Smooth"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:438
+msgid "Path"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:439
+msgid "Sets path for switching windows"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:443
+msgid "Vertical"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:444
+msgid "Horizontal"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:451
+msgid "Infinite"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:452
+msgid "Sets the ability to infinite the group"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:460
+msgid "Keep Aspect Ratio"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:461
+msgid "Sets the resizing method used to keep aspect ratio within the viewport"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:469
+msgid "Mobile Optimizer"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:470
+msgid "Make lightboxes optimized for giving better experience with mobile devices"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:478
+msgid "Max Scale"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:479
+msgid "Sets the maximum viewport scale of the content"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:490
+msgid "Min Scale"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:491
+msgid "Sets the minimum viewport scale of the content"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:502
+msgid "Inner Toolbar"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:503
+msgid "Bring buttons into windows, or let them be over the overlay"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:511
+msgid "Smart Recognition"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:512
+msgid "Sets content auto recognize from web pages"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:520
+msgid "Fullscreen One Slide"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:521
+msgid "Decide to fullscreen only one slide or hole gallery the fullscreen mode"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:529
+msgid "Fullscreen Viewport"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:530
+msgid "Sets the resizing method used to fit content within the fullscreen mode"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:534
+msgid "Center"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:535
+msgid "Fit"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:536
+msgid "Fill"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:537
+msgid "Stretch"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:544
+msgid "Toolbar Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:545
+msgid "Sets buttons be available or not"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:553
+msgid "Arrow Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:554
+msgid "Enable the arrow buttons"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:562
+msgid "Fullscreen Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:563
+msgid "Sets the fullscreen button"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:571
+msgid "Thumbnails Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:572
+msgid "Sets the thumbnail navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:580
+msgid "Keyboard Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:581
+msgid "Sets the keyboard navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:589
+msgid "Mouse Wheel Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:590
+msgid "Sets the mousewheel navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:598
+msgid "Swipe Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:599
+msgid "Sets the swipe navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:607
+msgid "Slideshow Controls"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:608
+msgid "Enable the slideshow feature and button"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:618
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:628
+msgid "Custom JavaScript"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:638
+msgid "Twitter API key"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:648
+msgid "Twitter API secret"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:658
+msgid "Twitter Access token"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:668
+msgid "Twitter Access token secret"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:680
+msgid "reCAPTCHA Public Key"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-general.php:690
+msgid "reCAPTCHA Private Key"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:32
+msgid "Timetable Event"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:48
+msgid "Blog Post Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:55
+msgid "Portfolio Project Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:62
+msgid "Person Block Profile Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:69
+msgid "Donations Campaign Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:76
+msgid "Timetable Event Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:103
+msgid "Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:126
+msgid "Post Date"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:135
+msgid "Post Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:144
+msgid "Post Author"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:153
+msgid "Post Comments"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:162
+msgid "Post Tags"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:171
+msgid "Post Likes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:180
+msgid "Posts Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:225
+msgid "Related, Popular & Latest Posts Boxes Items Number"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:226
+msgid "posts"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:250
+msgid "Enter a project details block title"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:259
+msgid "Project Date"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:268
+msgid "Project Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:277
+msgid "Project Author"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:286
+msgid "Project Comments"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:295
+msgid "Project Tags"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:304
+msgid "Project Likes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:313
+msgid "Project Link"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:331
+msgid "Projects Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:349
+msgid "More Projects Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:367
+msgid "Related, Popular & Latest Projects Boxes Items Number"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:368
+msgid "projects"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:379
+msgid "Project Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:380
+msgid "Enter a page slug that should be used for your projects single item"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:402
+msgid "Enter a profile details block title"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:411
+msgid "Profile Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:420
+msgid "Profile Comments"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:429
+msgid "Profiles Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:447
+msgid "Profile Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:448
+msgid "Enter a page slug that should be used for your profiles single item"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:469
+msgid "Campaign Date"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:478
+msgid "Campaign Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:487
+msgid "Campaign Comments"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:496
+msgid "Campaign Tags"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:505
+msgid "Campaign Likes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:523
+msgid "Campaign Navigation Box"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:559
+msgid "Related, Popular & Latest Campaigns Boxes Items Number"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:560
+msgid "campaigns"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:571
+msgid "Campaign Slug"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:572
+msgid "Enter a page slug that should be used for your donations campaign single item"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:594
+msgid "Enter a event hours block title"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:604
+msgid "Enter a event details block title"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-single.php:613
+msgid "Event Categories"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:18
+msgid "Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:40
+msgid "Logo Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:46
+msgid "Background Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:52
+msgid "Header Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:58
+msgid "Content Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:64
+msgid "Footer Options"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:93
+msgid "Logo Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:98
+msgid "Image"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:99
+msgid "Text"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:106
+msgid "Logo Image"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:107
+msgid "Choose your website logo image."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:117
+msgid "Retina Logo Image"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:118
+msgid "Choose logo image for retina displays."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:128
+msgid "Logo Title"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:138
+msgid "Logo Subtitle"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:148
+msgid "Custom Text Colors"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:157
+msgid "Logo Title Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:166
+msgid "Logo Subtitle Color"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:175
+msgid "Favicon"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:184
+msgid "Favicon URL"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:185
+msgid "Choose your website favicon image url."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:216
+msgid "Choose your custom website background image url."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:290
+msgid "Fixed Header"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:299
+msgid "Top Line"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:308
+msgid "Top Height"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:318
+msgid "Top Short Info"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:319
+#: framework/admin/settings/cmsms-theme-settings-style.php:375
+#: framework/admin/settings/cmsms-theme-settings-style.php:737
+msgid "HTML tags are allowed!"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:328
+msgid "Top Additional Content"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:334
+msgid "Top Line Social Icons"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:335
+msgid "Top Line Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:342
+msgid "Header Styles"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:347
+msgid "Left Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:348
+msgid "Centered Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:349
+msgid "Side Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:356
+msgid "Header Search"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:365
+msgid "Header Middle Custom Html"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:374
+msgid "Middle Header Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:384
+msgid "Header Middle Height"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:394
+msgid "Header Bottom & Scrolled Navigation Height"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:406
+msgid "Layout Type by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:420
+msgid "Archives Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:434
+msgid "Search Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:449
+msgid "Events Calendar Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:464
+msgid "Other Layout Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:478
+msgid "Heading Custom Color Scheme by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:488
+msgid "Heading Background Image Visibility by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:497
+msgid "Heading Background Image by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:498
+msgid "Choose your custom heading background image by default."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:508
+msgid "Heading Background Repeat by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:523
+msgid "Heading Background Attachment by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:536
+msgid "Heading Background Size by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:550
+msgid "Heading Title Background Color Overlay by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:559
+msgid "Heading Title Height by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:569
+msgid "Standard Heading Title by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:578
+msgid "Breadcrumbs Visibility by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:587
+msgid "Bottom Custom Color Scheme"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:597
+msgid "Bottom Sidebar Visibility by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:606
+msgid "Bottom Sidebar Layout by Default"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:630
+msgid "Footer Custom Color Scheme"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:640
+msgid "Footer Type"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:645
+msgid "With logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:646
+msgid "Small"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:653
+msgid "Footer Additional Content"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:659
+#: framework/admin/settings/cmsms-theme-settings-style.php:718
+msgid "Footer Navigation"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:661
+msgid "Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:668
+msgid "Fixed Footer"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:677
+msgid "Footer Height"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:687
+#: framework/admin/settings/cmsms-theme-settings-style.php:696
+msgid "Footer Logo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:697
+msgid "Choose your website footer logo image."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:707
+msgid "Footer Logo for Retina"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:708
+msgid "Choose your website footer logo image for retina."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:727
+msgid "Footer Social Icons"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:736
+msgid "Footer Custom HTML"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:746
+msgid "Copyright Text"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:762
+msgid "Twitter"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:763
+msgid "Facebook"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:764
+msgid "Google+"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:765
+msgid "Vimeo"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings-style.php:766
+msgid "Skype"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:41
+#: framework/admin/settings/cmsms-theme-settings.php:379
+msgid "Theme General Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:84
+#: framework/admin/settings/cmsms-theme-settings.php:391
+msgid "Theme Appearance"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:119
+#: framework/admin/settings/cmsms-theme-settings.php:403
+msgid "Theme Fonts Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:150
+#: framework/admin/settings/cmsms-theme-settings.php:415
+msgid "Theme Color Schemes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:162
+#: framework/admin/settings/cmsms-theme-settings.php:427
+msgid "Theme Single Posts Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:193
+#: framework/admin/settings/cmsms-theme-settings.php:439
+msgid "Theme Settings Import/Export"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:235
+msgid "Default Field"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:236
+msgid "This is a default description."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:332
+msgid "Do you realy want to remove this sidebar?"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:337
+msgid "All theme settings were imported successfully."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:338
+msgid ""
+"Error on page!!!\n"
+"Please reload page and try again."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:392
+#: framework/admin/settings/cmsms-theme-settings.php:1361
+msgid "Appearance"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:404
+#: framework/admin/settings/cmsms-theme-settings.php:1368
+msgid "Fonts"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:416
+#: framework/admin/settings/cmsms-theme-settings.php:1375
+msgid "Colors"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:428
+msgid "Single Posts"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:440
+msgid "Import/Export"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:475
+#: framework/admin/settings/cmsms-theme-settings.php:483
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:483
+msgid "Import Settings"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:723
+msgid "System Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:737
+msgid "Google Font"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:745
+msgid "Font Size"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:745
+#: framework/admin/settings/cmsms-theme-settings.php:753
+msgid "in pixels"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:753
+msgid "Line Height"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:767
+msgid "Font Weight"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:781
+msgid "Font Style"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:795
+msgid "Text Transform"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:809
+msgid "Text Decoration"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:821
+msgid "Add Sidebar"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:848
+msgid "This plugin makes it easy to build multilingual sites and run them. It's powerful enough for corporate sites, yet simple for blogs."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:879
+msgid "Icon Link"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:883
+msgid "Icon Title"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:941
+msgid "Expecting a Numeric value!"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:947
+#: framework/admin/settings/cmsms-theme-settings.php:1253
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:957
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:966
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:988
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:990
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:997
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1247
+msgid "Number!"
+msgstr ""
+
+#: framework/admin/settings/cmsms-theme-settings.php:1382
+msgid "Single"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:340
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:341
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:404
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:409
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:531
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:532
+msgid "Update Required"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:646
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:840
+#: framework/class/class-tgm-plugin-activation.php:3450
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:947
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:947
+#: framework/class/class-tgm-plugin-activation.php:950
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:950
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2182
+msgid "Recommended"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2198
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2201
+msgid "External Source"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2204
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2221
+msgid "Not Installed"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2225
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2227
+msgid "Active"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2233
+msgid "Required Update not Available"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2236
+msgid "Requires Update"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2239
+msgid "Update recommended"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2391
+msgid "Installed version:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2399
+msgid "Minimum required version:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2411
+msgid "Available version:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2434
+#, php-format
+msgid "No plugins to install, update or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2448
+msgid "Plugin"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2449
+msgid "Source"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2450
+msgid "Type"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2454
+msgid "Version"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2455
+msgid "Status"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2582
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2615
+msgid "Install"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2621
+msgid "Update"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2624
+msgid "Activate"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2655
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2657
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2693
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2695
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2800
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:2826
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3040
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3374
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3377
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3381
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3382
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3382
+#: framework/class/class-tgm-plugin-activation.php:3388
+msgid "Show Details"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3382
+#: framework/class/class-tgm-plugin-activation.php:3388
+msgid "Hide Details"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3383
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3384
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3387
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3388
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3389
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/class/class-tgm-plugin-activation.php:3390
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/class/likes-posttype.php:16
+msgid "Likes"
+msgstr ""
+
+#: framework/class/likes-posttype.php:17
+msgid "Like"
+msgstr ""
+
+#: framework/class/widgets.php:20
+msgid "Your advertisement"
+msgstr ""
+
+#: framework/class/widgets.php:27
+#: framework/class/widgets.php:33
+msgid "Advertisement"
+msgstr ""
+
+#: framework/class/widgets.php:221
+msgid "Your contact information"
+msgstr ""
+
+#: framework/class/widgets.php:228
+#: framework/class/widgets.php:234
+msgid "Contact Information"
+msgstr ""
+
+#: framework/class/widgets.php:279
+#: framework/class/widgets.php:350
+msgid "Phone"
+msgstr ""
+
+#: framework/class/widgets.php:340
+msgid "State"
+msgstr ""
+
+#: framework/class/widgets.php:345
+msgid "Zip"
+msgstr ""
+
+#: framework/class/widgets.php:372
+msgid "Divider for widgets rows"
+msgstr ""
+
+#: framework/class/widgets.php:375
+msgid "Divider"
+msgstr ""
+
+#: framework/class/widgets.php:417
+msgid "Show Divider Line"
+msgstr ""
+
+#: framework/class/widgets.php:420
+msgid "Divider Type"
+msgstr ""
+
+#: framework/class/widgets.php:422
+msgid "Solid Line"
+msgstr ""
+
+#: framework/class/widgets.php:423
+msgid "Dashed Line"
+msgstr ""
+
+#: framework/class/widgets.php:424
+msgid "Dotted Line"
+msgstr ""
+
+#: framework/class/widgets.php:425
+msgid "Transparent Line"
+msgstr ""
+
+#: framework/class/widgets.php:441
+msgid "Video from youtube, vimeo or dailymotion"
+msgstr ""
+
+#: framework/class/widgets.php:444
+#: framework/class/widgets.php:453
+msgid "Embedded Widget"
+msgstr ""
+
+#: framework/class/widgets.php:518
+msgid "Embed URL"
+msgstr ""
+
+#: framework/class/widgets.php:523
+msgid "Max Width"
+msgstr ""
+
+#: framework/class/widgets.php:528
+msgid "Max Height"
+msgstr ""
+
+#: framework/class/widgets.php:534
+msgid "If checked, ignore default video height/max-height and set a 16:9 proportion instead"
+msgstr ""
+
+#: framework/class/widgets.php:549
+msgid "Your Facebook like box"
+msgstr ""
+
+#: framework/class/widgets.php:600
+msgid "Facebook Page URL"
+msgstr ""
+
+#: framework/class/widgets.php:617
+msgid "Your Flickr account latest images"
+msgstr ""
+
+#: framework/class/widgets.php:620
+#: framework/class/widgets.php:626
+msgid "Flickr"
+msgstr ""
+
+#: framework/class/widgets.php:649
+msgid "More flickr images"
+msgstr ""
+
+#: framework/class/widgets.php:675
+msgid "Flickr ID"
+msgstr ""
+
+#: framework/class/widgets.php:680
+msgid "Enter the number of latest flickr images you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:682
+#: framework/class/widgets.php:1181
+#: framework/class/widgets.php:1381
+#: framework/class/widgets.php:1740
+#: framework/class/widgets.php:1838
+msgid "default is"
+msgstr ""
+
+#: framework/class/widgets.php:698
+msgid "Your HTML5 Audio"
+msgstr ""
+
+#: framework/class/widgets.php:705
+#: framework/class/widgets.php:711
+msgid "HTML5 Audio"
+msgstr ""
+
+#: framework/class/widgets.php:798
+#: framework/class/widgets.php:803
+#: framework/class/widgets.php:808
+msgid "Audio"
+msgstr ""
+
+#: framework/class/widgets.php:798
+#: framework/class/widgets.php:803
+#: framework/class/widgets.php:808
+msgid "File Format URL"
+msgstr ""
+
+#: framework/class/widgets.php:813
+#: framework/class/widgets.php:975
+msgid "Preload"
+msgstr ""
+
+#: framework/class/widgets.php:815
+#: framework/class/widgets.php:977
+msgid "Not Preload"
+msgstr ""
+
+#: framework/class/widgets.php:816
+#: framework/class/widgets.php:978
+msgid "Preload Auto"
+msgstr ""
+
+#: framework/class/widgets.php:817
+#: framework/class/widgets.php:979
+msgid "Preload as Metadata"
+msgstr ""
+
+#: framework/class/widgets.php:823
+#: framework/class/widgets.php:985
+msgid "Enable Autoplay"
+msgstr ""
+
+#: framework/class/widgets.php:827
+#: framework/class/widgets.php:989
+msgid "Enable Repeat"
+msgstr ""
+
+#: framework/class/widgets.php:842
+msgid "Your HTML5 Video"
+msgstr ""
+
+#: framework/class/widgets.php:849
+#: framework/class/widgets.php:855
+msgid "HTML5 Video"
+msgstr ""
+
+#: framework/class/widgets.php:860
+#: framework/class/widgets.php:941
+msgid "Your browser does not support the video tag."
+msgstr ""
+
+#: framework/class/widgets.php:955
+#: framework/class/widgets.php:960
+#: framework/class/widgets.php:965
+msgid "Video"
+msgstr ""
+
+#: framework/class/widgets.php:955
+#: framework/class/widgets.php:960
+#: framework/class/widgets.php:965
+msgid "File Format Source"
+msgstr ""
+
+#: framework/class/widgets.php:970
+msgid "Poster URL"
+msgstr ""
+
+#: framework/class/widgets.php:1004
+msgid "Latest projects from your portfolio"
+msgstr ""
+
+#: framework/class/widgets.php:1007
+#: framework/class/widgets.php:1013
+msgid "Latest Projects"
+msgstr ""
+
+#: framework/class/widgets.php:1159
+#: framework/class/widgets.php:1359
+msgid "Show Only from Projects Type"
+msgstr ""
+
+#: framework/class/widgets.php:1161
+#: framework/class/widgets.php:1361
+msgid "Show all projects"
+msgstr ""
+
+#: framework/class/widgets.php:1179
+msgid "Enter the number of latest projects you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:1186
+#: framework/class/widgets.php:1386
+msgid "Autoplay"
+msgstr ""
+
+#: framework/class/widgets.php:1201
+msgid "Popular projects from your portfolio"
+msgstr ""
+
+#: framework/class/widgets.php:1204
+#: framework/class/widgets.php:1210
+msgid "Popular Projects"
+msgstr ""
+
+#: framework/class/widgets.php:1379
+msgid "Enter the number of popular projects you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:1401
+msgid "Latest, popular posts & recent comments"
+msgstr ""
+
+#: framework/class/widgets.php:1404
+msgid "Posts Tabs"
+msgstr ""
+
+#: framework/class/widgets.php:1435
+#: framework/class/widgets.php:1453
+msgid "Latest"
+msgstr ""
+
+#: framework/class/widgets.php:1441
+msgid "Popular"
+msgstr ""
+
+#: framework/class/widgets.php:1668
+msgid "on"
+msgstr ""
+
+#: framework/class/widgets.php:1727
+msgid "Latest Posts"
+msgstr ""
+
+#: framework/class/widgets.php:1731
+msgid "Popular Posts"
+msgstr ""
+
+#: framework/class/widgets.php:1735
+msgid "Recent Comments"
+msgstr ""
+
+#: framework/class/widgets.php:1738
+msgid "Enter the number of recent comments, popular and latest posts you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:1756
+msgid "Your Twitter account latest tweets"
+msgstr ""
+
+#: framework/class/widgets.php:1831
+msgid "Twitter Username"
+msgstr ""
+
+#: framework/class/widgets.php:1836
+msgid "Enter the number of latest tweets you'd like to display"
+msgstr ""
+
+#: framework/class/widgets.php:1855
+msgid "PayPal Donation Button"
+msgstr ""
+
+#: framework/class/widgets.php:1887
+#: framework/class/widgets.php:1908
+msgid "Donate"
+msgstr ""
+
+#: framework/class/widgets.php:1937
+msgid "Title:"
+msgstr ""
+
+#: framework/class/widgets.php:1942
+msgid "Text:"
+msgstr ""
+
+#: framework/class/widgets.php:1947
+msgid "Purpose:"
+msgstr ""
+
+#: framework/class/widgets.php:1952
+msgid "Reference:"
+msgstr ""
+
+#: framework/class/widgets.php:1957
+msgid "Amount:"
+msgstr ""
+
+#: framework/class/widgets.php:1962
+msgid "Button Text:"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:19
+msgid "Home"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:40
+msgid "You are here: "
+msgstr ""
+
+#: framework/function/breadcrumbs.php:93
+msgid "Search Results for"
+msgstr ""
+
+#: framework/function/breadcrumbs.php:127
+msgid "No Breadcrumbs"
+msgstr ""
+
+#: framework/function/single-comment.php:20
+msgid "Edit"
+msgstr ""
+
+#: framework/function/single-comment.php:27
+msgid "Reply"
+msgstr ""
+
+#: framework/function/single-comment.php:41
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/function/template-functions-post.php:165
+#: framework/function/template-functions-post.php:173
+msgid "Tags"
+msgstr ""
+
+#: framework/function/template-functions-project.php:168
+msgid "Date"
+msgstr ""
+
+#: framework/function/template-functions-project.php:196
+#: framework/function/template-functions-project.php:207
+msgid "Projects by"
+msgstr ""
+
+#: framework/function/template-functions-project.php:205
+msgid "Author"
+msgstr ""
+
+#: framework/function/template-functions.php:32
+msgid "Default Logo Subtitle"
+msgstr ""
+
+#: framework/function/template-functions.php:381
+msgid "Events Calendar"
+msgstr ""
+
+#: framework/function/template-functions.php:392
+msgid "search results for"
+msgstr ""
+
+#: framework/function/template-functions.php:394
+msgid "search result for"
+msgstr ""
+
+#: framework/function/template-functions.php:397
+msgid "Search results for"
+msgstr ""
+
+#: framework/function/template-functions.php:401
+msgid "Archive for date"
+msgstr ""
+
+#: framework/function/template-functions.php:403
+msgid "Archive for month"
+msgstr ""
+
+#: framework/function/template-functions.php:405
+msgid "Archive for year"
+msgstr ""
+
+#: framework/function/template-functions.php:407
+msgid "Archive for category"
+msgstr ""
+
+#: framework/function/template-functions.php:409
+msgid "Archive for tag"
+msgstr ""
+
+#: framework/function/template-functions.php:413
+msgid "Author archive"
+msgstr ""
+
+#: framework/function/template-functions.php:416
+msgid "for"
+msgstr ""
+
+#: framework/function/template-functions.php:421
+msgid "Archive for"
+msgstr ""
+
+#: framework/function/template-functions.php:429
+msgid "archive"
+msgstr ""
+
+#: framework/function/template-functions.php:431
+#: framework/function/theme-functions.php:1483
+msgid "Archives"
+msgstr ""
+
+#: framework/function/template-functions.php:875
+msgid "Tweet"
+msgstr ""
+
+#: framework/function/template-functions.php:910
+msgid "Pin It"
+msgstr ""
+
+#: framework/function/template-functions.php:1089
+msgid "More posts"
+msgstr ""
+
+#: framework/function/template-functions.php:1091
+msgid "More projects"
+msgstr ""
+
+#: framework/function/template-functions.php:1099
+msgid "Related"
+msgstr ""
+
+#: framework/function/template-functions.php:1190
+msgid "No related posts found"
+msgstr ""
+
+#: framework/function/template-functions.php:1192
+msgid "No related projects found"
+msgstr ""
+
+#: framework/function/template-functions.php:1253
+msgid "No popular posts found"
+msgstr ""
+
+#: framework/function/template-functions.php:1255
+msgid "No popular projects found"
+msgstr ""
+
+#: framework/function/template-functions.php:1312
+msgid "No latest posts found"
+msgstr ""
+
+#: framework/function/template-functions.php:1314
+msgid "No latest projects found"
+msgstr ""
+
+#: framework/function/theme-functions.php:212
+#: framework/function/theme-functions.php:260
+msgid "Close"
+msgstr ""
+
+#: framework/function/theme-functions.php:213
+#: framework/function/theme-functions.php:261
+msgid "Enter Fullscreen (Shift+Enter)"
+msgstr ""
+
+#: framework/function/theme-functions.php:214
+#: framework/function/theme-functions.php:262
+msgid "Exit Fullscreen (Shift+Enter)"
+msgstr ""
+
+#: framework/function/theme-functions.php:215
+#: framework/function/theme-functions.php:263
+msgid "Slideshow"
+msgstr ""
+
+#: framework/function/theme-functions.php:216
+#: framework/function/theme-functions.php:264
+msgid "Next"
+msgstr ""
+
+#: framework/function/theme-functions.php:217
+#: framework/function/theme-functions.php:265
+msgid "Previous"
+msgstr ""
+
+#: framework/function/theme-functions.php:218
+#: framework/function/theme-functions.php:266
+msgid "An error occurred when trying to load photo."
+msgstr ""
+
+#: framework/function/theme-functions.php:219
+#: framework/function/theme-functions.php:267
+msgid "An error occurred when trying to load contents."
+msgstr ""
+
+#: framework/function/theme-functions.php:220
+#: framework/function/theme-functions.php:268
+msgid "The content your are attempting to view requires the <a href='{pluginspage}' target='_blank'>{type} plugin<\\/a>."
+msgstr ""
+
+#: framework/function/theme-functions.php:439
+msgid "Sidebar"
+msgstr ""
+
+#: framework/function/theme-functions.php:441
+msgid "Widgets in this area will be shown in all left and right sidebars till you don't use custom sidebar."
+msgstr ""
+
+#: framework/function/theme-functions.php:453
+msgid "Widgets in this area will be shown at the bottom of middle block below the content and middle sidebar, but above footer."
+msgstr ""
+
+#: framework/function/theme-functions.php:463
+msgid "Archive Sidebar"
+msgstr ""
+
+#: framework/function/theme-functions.php:465
+msgid "Widgets in this area will be shown in all left and right sidebars on archives pages."
+msgstr ""
+
+#: framework/function/theme-functions.php:475
+msgid "Search Sidebar"
+msgstr ""
+
+#: framework/function/theme-functions.php:477
+msgid "Widgets in this area will be shown in left or right sidebar on search page."
+msgstr ""
+
+#: framework/function/theme-functions.php:494
+msgid "Custom sidebar created with cmsmasters admin panel."
+msgstr ""
+
+#: framework/function/theme-functions.php:515
+msgid "Primary Navigation"
+msgstr ""
+
+#: framework/function/theme-functions.php:1495
+msgid "Meta"
+msgstr ""
+
+#: framework/function/theme-functions.php:1521
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: framework/function/theme-functions.php:1521
+msgid "Entries"
+msgstr ""
+
+#: framework/function/theme-functions.php:1522
+#: framework/function/theme-functions.php:1533
+msgid "Really Simple Syndication"
+msgstr ""
+
+#: framework/function/theme-functions.php:1522
+#: framework/function/theme-functions.php:1533
+msgid "RSS"
+msgstr ""
+
+#: framework/function/theme-functions.php:1532
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: framework/function/theme-functions.php:1537
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+
+#: framework/postType/portfolio/post/gallery.php:215
+#: framework/postType/portfolio/post/standard.php:195
+#: framework/postType/portfolio/post/video.php:190
+msgid "Like this project?"
+msgstr ""
+
+#: installer/includes/installer.class.php:149
+#: installer/includes/installer.class.php:551
+msgid "Installer"
+msgstr ""
+
+#: installer/includes/installer.class.php:257
+msgid "Registered"
+msgstr ""
+
+#: installer/includes/installer.class.php:262
+msgid "Register"
+msgstr ""
+
+#: installer/includes/installer.class.php:394
+#, php-format
+msgid "To get automatic updates, you need to register %s for this site. %sRegister %s%s"
+msgstr ""
+
+#: installer/includes/installer.class.php:397
+msgid "Dismiss"
+msgstr ""
+
+#: installer/includes/installer.class.php:419
+msgid "Commercial"
+msgstr ""
+
+#: installer/includes/installer.class.php:505
+#, php-format
+msgid "Can't connect to %s"
+msgstr ""
+
+#: installer/includes/installer.class.php:587
+msgid "No repositories defined."
+msgstr ""
+
+#: installer/includes/installer.class.php:752
+#, php-format
+msgid "%s cannot access %s to register. Try again to see if it's a temporary problem. If the problem continues, make sure that this site has access to the Internet. You can still use the plugin without registration, but you will not receive automated updates."
+msgstr ""
+
+#: installer/includes/installer.class.php:762
+#: installer/includes/installer.class.php:844
+msgid "Invalid site key for the current site."
+msgstr ""
+
+#: installer/includes/installer.class.php:974
+#: installer/includes/installer.class.php:1036
+msgid "You will have to renew your subscription in order to continue getting the updates and support."
+msgstr ""
+
+#: installer/includes/installer.class.php:1119
+#, php-format
+msgid "%sRenew here%s."
+msgstr ""
+
+#: installer/includes/installer.class.php:1438
+msgid "Your subscription appears to no longer be valid. Please try to register again using a valid site key."
+msgstr ""
+
+#: installer/includes/installer.class.php:1691
+#, php-format
+msgid "You need to have a valid subscription in order to get upgrades or support for this plugin. %sPurchase a subscription or enter an existing site key%s."
+msgstr ""
+
+#: installer/includes/installer.class.php:2062
+#: installer/includes/installer.class.php:2122
+#, php-format
+msgid "%s cannot update because your site's registration is not valid. Please %sregister %s%s again for this site first."
+msgstr ""
+
+#: installer/includes/installer.class.php:2146
+msgid "Update Plugin"
+msgstr ""
+
+#: installer/includes/installer.class.php:2147
+msgid "Return to the plugins page"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:9
+msgid "Available"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:10
+msgid "Installed"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:11
+msgid "Downloading"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:55
+msgid "downloading..."
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:56
+#: installer/templates/downloads-list.php:55
+#: installer/templates/downloads-list.php:56
+msgid "failed!"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:56
+msgid "downloaded"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:59
+#: installer/templates/downloads-list.php:59
+msgid "activating"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:60
+#: installer/templates/downloads-list.php:60
+msgid "activated"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:68
+#: installer/templates/downloads-list.php:73
+#, php-format
+msgid "Downloading is not possible because WordPress cannot write into the plugins folder. %sHow to fix%s."
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:72
+#: installer/templates/downloads-list.php:78
+msgid "Download"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:74
+#: installer/templates/downloads-list.php:80
+msgid "Activate after download"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:76
+#: installer/templates/downloads-list.php:82
+msgid "Operation complete!"
+msgstr ""
+
+#: installer/templates/downloads-list-compact.php:78
+msgid ""
+"Download failed!\n"
+"\n"
+"Click OK to revalidate your subscription or CANCEL to try again."
+msgstr ""
+
+#: installer/templates/downloads-list.php:2
+msgid "Downloads:"
+msgstr ""
+
+#: installer/templates/downloads-list.php:11
+msgid "Current version"
+msgstr ""
+
+#: installer/templates/downloads-list.php:12
+msgid "Released"
+msgstr ""
+
+#: installer/templates/downloads-list.php:13
+msgid "Installed version"
+msgstr ""
+
+#: installer/templates/downloads-list.php:49
+msgid "(embedded)"
+msgstr ""
+
+#: installer/templates/downloads-list.php:53
+msgid "installing..."
+msgstr ""
+
+#: installer/templates/downloads-list.php:54
+msgid "updating..."
+msgstr ""
+
+#: installer/templates/downloads-list.php:55
+msgid "installed"
+msgstr ""
+
+#: installer/templates/downloads-list.php:56
+msgid "updated"
+msgstr ""
+
+#: installer/templates/downloads-list.php:84
+msgid ""
+"Download failed!\n"
+"\n"
+"Please refresh the page and try again."
+msgstr ""
+
+#: installer/templates/products-compact.php:5
+msgid "Incorrect setup"
+msgstr ""
+
+#: installer/templates/products-compact.php:25
+msgid "Invalid product"
+msgstr ""
+
+#: installer/templates/products-compact.php:36
+msgid "Unknown repository"
+msgstr ""
+
+#: installer/templates/products-compact.php:44
+#, php-format
+msgid " Your current site key (%s) does not match the selected product (%s)."
+msgstr ""
+
+#: installer/templates/products-compact.php:65
+#, php-format
+msgid "Buy %s"
+msgstr ""
+
+#: installer/templates/products-compact.php:69
+#, php-format
+msgid "Already bought %s?"
+msgstr ""
+
+#: installer/templates/products-compact.php:70
+msgid "Enter site key"
+msgstr ""
+
+#: installer/templates/products-compact.php:77
+msgid "Add"
+msgstr ""
+
+#: installer/templates/products-compact.php:86
+msgid "Subscription is expired."
+msgstr ""
+
+#: installer/templates/products-compact.php:95
+#, php-format
+msgid "Renew %s"
+msgstr ""
+
+#: installer/templates/products-compact.php:105
+msgid "Are you sure you want to remove this site key?"
+msgstr ""
+
+#: installer/templates/products-compact.php:105
+#, php-format
+msgid "Remove current site key (%s)"
+msgstr ""
+
+#: installer/templates/products-compact.php:120
+#, php-format
+msgid "%s support on wpml.org"
+msgstr ""
+
+#: installer/templates/repository-listing.php:18
+msgid "Already bought?"
+msgstr ""
+
+#: installer/templates/repository-listing.php:19
+#, php-format
+msgid "Register %s"
+msgstr ""
+
+#: installer/templates/repository-listing.php:24
+msgid "2. Enter your site key"
+msgstr ""
+
+#: installer/templates/repository-listing.php:26
+msgid "OK"
+msgstr ""
+
+#: installer/templates/repository-listing.php:29
+#, php-format
+msgid "1. Go to your %s%s account%s and add this site URL: %s"
+msgstr ""
+
+#: installer/templates/repository-listing.php:55
+msgid "Subscription is expired. You need to either purchase a new subscription or upgrade if available."
+msgstr ""
+
+#: installer/templates/repository-listing.php:61
+msgid "Are you sure you want to unregister?"
+msgstr ""
+
+#: installer/templates/repository-listing.php:61
+#, php-format
+msgid "Unregister %s from this site"
+msgstr ""
+
+#: installer/templates/repository-listing.php:62
+msgid "Check for updates"
+msgstr ""
+
+#: installer/templates/repository-listing.php:68
+#, php-format
+msgid "%s is registered on this site. You will receive automatic updates until %s"
+msgstr ""
+
+#: installer/templates/repository-listing.php:70
+#, php-format
+msgid "%s is registered on this site. Your Lifetime account gives you updates for life."
+msgstr ""
+
+#: installer/templates/repository-listing.php:122
+msgid "Click to see individual components options."
+msgstr ""
+
+#: installer/templates/repository-listing.php:122
+msgid "Individual components"
+msgstr ""
+
+#: installer/templates/repository-listing.php:163
+#, php-format
+msgid "This page lets you install plugins and update existing plugins. To remove any of these plugins, go to the %splugins%s page and if you have the permission to remove plugins you should be able to do this."
+msgstr ""
+
+#: tribe-events/single-event.php:53
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: tribe-events/day/single-event.php:82
+#: tribe-events/list/single-event.php:86
+msgid "Find out more"
+msgstr ""
+
+#: tribe-events/modules/bar.php:31
+#: tribe-events/modules/bar.php:46
+#, php-format
+msgid "Find %s"
+msgstr ""
+
+#: tribe-events/modules/bar.php:57
+msgid "Event Views Navigation"
+msgstr ""
+
+#: tribe-events/modules/bar.php:58
+msgid "View As"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:33
+msgid "Details"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:42
+#: tribe-events/modules/meta/details.php:68
+msgid "Start:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:48
+#: tribe-events/modules/meta/details.php:74
+msgid "End:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:58
+#: tribe-events/modules/meta/details.php:84
+msgid "Date:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:90
+msgid "Time:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:106
+msgid "Cost:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:124
+#: tribe-events/modules/meta/details.php:128
+#, php-format
+msgid "%s Tags:"
+msgstr ""
+
+#: tribe-events/modules/meta/details.php:135
+#: tribe-events/modules/meta/organizer.php:47
+#: tribe-events/modules/meta/venue.php:58
+msgid "Website:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:25
+msgid "Organizer Name:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:31
+#: tribe-events/modules/meta/venue.php:50
+msgid "Phone:"
+msgstr ""
+
+#: tribe-events/modules/meta/organizer.php:39
+msgid "Email:"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:29
+msgid "Venue Name:"
+msgstr ""
+
+#: tribe-events/modules/meta/venue.php:35
+msgid "Address:"
+msgstr ""
+
+#: tribe-events/month/mobile.php:16
+#, php-format
+msgid "%s for"
+msgstr ""
+
+#: tribe-events/month/mobile.php:39
+msgid "Find out more &raquo;"
+msgstr ""
+
+#: tribe-events/pro/related-events.php:31
+#, php-format
+msgid "Related %s"
+msgstr ""
+
+#: tribe-events/pro/single-organizer.php:53
+#: tribe-events/pro/single-venue.php:53
+#, php-format
+msgid "Back to %s"
+msgstr ""
+
+#: tribe-events/pro/widgets/list-widget.php:61
+msgid "View More&hellip;"
+msgstr ""
+
+#: tribe-events/pro/widgets/list-widget.php:69
+#, php-format
+msgid "There are no upcoming %s at this time."
+msgstr ""
+
+#: tribe-events/pro/widgets/venue-widget.php:40
+#, php-format
+msgid "No upcoming %s."
+msgstr ""
+
+#: tribe-events/pro/widgets/venue-widget.php:63
+#, php-format
+msgid "View all Events at this %s"
+msgstr ""
+
+#: tribe-events/pro/widgets/modules/single-event.php:90
+msgid "Organizer:"
+msgstr ""
+
+#: woocommerce/cmsms-woo-functions.php:43
+msgid "Add to Cart"
+msgstr ""
+
+#: woocommerce/cmsms-woo-functions.php:67
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/cmsms-woo-functions.php:84
+msgid "out of 5"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:31
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:52
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:66
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:83
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:100
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:33
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:19
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:23
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:25
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:29
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:31
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:37
+#: woocommerce/checkout/thankyou.php:68
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:41
+msgid "Order"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Total"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:54
+msgid "Payment method"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:26
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:43
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/review.php:31
+msgid "Your comment is awaiting approval"
+msgstr ""
+
+#: woocommerce/single-product/review.php:40
+msgid "verified owner"
+msgstr ""
+
