@@ -127,7 +127,7 @@ echo '<a href="javascript:void(0);" id="slide_top" class="cmsms_theme_icon_slide
 					<div class="one_third">
 					    <h2>WE ARE HERE</h2>
 					    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-						<?php echo do_shortcode('[cmsms_google_map_markers address_type="address" address="Broekstraat 67" type="SATELLITE" zoom="14" height_type="auto" scroll_wheel="true" double_click_zoom="true" animation_delay="0"][cmsms_google_map_marker address_type="address" address="Broekstraat 67"][/cmsms_google_map_marker][/cmsms_google_map_markers]');?>
+						<?php echo do_shortcode('[cmsms_google_map_markers address_type="address" address="Broekstraat 67" type="SATELLITE" zoom="14" height_type="fixed" height="157" scroll_wheel="true" double_click_zoom="true" animation_delay="0"][cmsms_google_map_marker address_type="address" address="Broekstraat 67"][/cmsms_google_map_marker][/cmsms_google_map_markers]');?>
 					</div>
 				</div>
 		<?php 

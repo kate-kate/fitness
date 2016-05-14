@@ -8980,7 +8980,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 }
 
 #first-column p:first-of-type {
-  width: 270px;
   border-bottom: 1px solid #2e3034;
 }
 
@@ -9022,8 +9021,8 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 #footer .widget_recent_entries ul li {
   background: url('img/footer-recent.png') no-repeat left top;
-  padding: 7px 0px 10px 70px;
-  margin-bottom: 10px;
+  padding: 5px 0px 10px 70px;
+  margin-bottom: 30px;
 }
 
 #header, .headline {
