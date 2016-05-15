@@ -8456,7 +8456,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 /* my custom styles */
 
 #header .header_mid_inner {
-    margin-left: 16.5%;
+    margin: 0 16.5%;
 }
 
 @media only screen and (max-width: 1680px) {
@@ -8599,7 +8599,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   color: #656565;
 }
 
-.cmsms_post_content p {
+.cmsms_post_content p:last-of-type {
   padding: 0 0 45px;
   border-bottom: 1px solid #bbbbbb;
 }
@@ -9025,10 +9025,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   margin-bottom: 30px;
 }
 
-#header, .headline {
-  background-color: #fff;
-}
-
 #sign-up-form {
   position: relative;
   background: #FFF;
@@ -9106,4 +9102,24 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   border-color: #fee900;
   background-color: #fee900;
   color: #7c7c7c;
+}
+
+.main-page-blog article {
+  vertical-align: top;
+}
+
+.cmsms_post_content blockquote p:last-of-type {
+  border-bottom: none;
+}
+
+.top_img {
+  height: 870px;
+  background-image: url('img/single-post-header.png');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.top_img .headline {
+  background-color: none;
 }
