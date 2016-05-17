@@ -9123,3 +9123,150 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 .top_img .headline {
   background-color: none;
 }
+
+.sidebar .widgettitle {
+  font-family: 'Oswald';
+  font-size: 16px;
+  color: #343434;
+  font-weight: bold;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+.sidebar .search_bar_wrap {
+  border: 1px solid #cecece;
+}
+
+.sidebar .widget_search h3 {
+  padding-bottom: 18px;
+}
+
+.sidebar .widget_categories ul {
+  padding-left: 0;
+}
+
+.sidebar .widget_categories ul li:before {
+  content: none;
+}
+
+.sidebar .widget_categories ul li {
+  padding: 20px 30px;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+.sidebar .widget_categories ul li:hover,
+.sidebar .widget_categories ul li:hover a {
+  background-color: #203042;
+  color: #fff;
+}
+
+.sidebar .widget_categories ul li a:hover {
+  color: #fff;
+}
+
+.cmsms_post_title {
+  font-family: 'Oswald';
+  font-size: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.cmsms_post_content p {
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+}
+
+.entry-meta, .entry-meta span {
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+}
+
+blockquote:before, blockquote:after {
+  content: none;
+}
+
+blockquote {
+  margin: 20px 0 40px 50px;
+  padding: 0 10px 0 30px;
+  color: #898f95;
+}
+
+blockquote p {
+  line-height: 22px;
+  padding: 0 30px;
+  border-left: 1px solid #343434;
+}
+
+.cmsms_post_content blockquote p:last-of-type {
+  padding: 0 30px;
+}
+
+.cmsms_post_content h3 {
+  font-family: 'Oswald';
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.cmsms_post_content p:last-of-type {
+  margin-bottom: 
+}
+
+.tribe-list-widget a {
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+}
+
+.tribe-list-widget h4, .tribe-list-widget h4 a {
+  line-height: 22px;
+}
+
+.tribe-events-widget-link a {
+  color: #b1b1b8
+}
+
+.tribe-event-duration span {
+  color: #e7c01a;
+}
+
+#thumbnail {
+  margin-bottom: 60px;
+  background-color: #e4b901;
+  display: inline-block;
+}
+
+#thumbnail figure {
+  display: inline-block;
+}
+
+#thumbnail .date {
+  float: left;
+  width: 100px;
+}
+
+#thumbnail .date .day {
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 72px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  line-height: 72px;
+}
+
+#thumbnail .date .month {
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Oswald';
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.opened-article {
+  max-width: 770px;
+}
+
+.homepage-form-wrap .wpcf7-response-output {
+  margin-top: -35px;
+}

@@ -37,6 +37,22 @@ if ($cmsms_layout == 'r_sidebar') {
 
 if (have_posts()) : the_post();
 	echo '<div class="blog opened-article">' . "\n";
+
+    echo '<div id="thumbnail">';
+		if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+			echo '<div class="date">';
+				echo '<div class="day">';
+					echo get_the_date('d');
+				echo '</div>';
+				echo '<div class="month">';
+					echo get_the_date('F');
+				echo '</div>';
+			echo '</div>';
+			echo '<figure>';
+			  	the_post_thumbnail();
+			echo '</figure>';
+		}
+	echo '</div>';
 	
 	if ($cmsms_layout == 'fullwidth') {
 		if (get_post_format() != '') {
@@ -56,6 +72,7 @@ if (have_posts()) : the_post();
 	if ($cmsms_option[CMSMS_SHORTNAME . '_blog_post_nav_box']) {
 		cmsms_prev_next_posts();
 	}
+
 	
 	
 	if ($cmsms_post_sharing_box == 'true') {

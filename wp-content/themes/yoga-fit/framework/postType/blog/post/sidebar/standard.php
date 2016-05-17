@@ -27,22 +27,22 @@ $cmsms_post_title = get_post_meta(get_the_ID(), 'cmsms_post_title', true);
 	}
 	
 	
-	if (
-		$cmsms_option[CMSMS_SHORTNAME . '_blog_post_date'] ||  
-		$cmsms_option[CMSMS_SHORTNAME . '_blog_post_author'] || 
-		$cmsms_option[CMSMS_SHORTNAME . '_blog_post_cat'] || 
-		$cmsms_option[CMSMS_SHORTNAME . '_blog_post_tag']
-	) {
-		echo '<footer class="cmsms_post_footer entry-meta">';
-			cmsms_post_date('post');
+	// if (
+	// 	$cmsms_option[CMSMS_SHORTNAME . '_blog_post_date'] ||  
+	// 	$cmsms_option[CMSMS_SHORTNAME . '_blog_post_author'] || 
+	// 	$cmsms_option[CMSMS_SHORTNAME . '_blog_post_cat'] || 
+	// 	$cmsms_option[CMSMS_SHORTNAME . '_blog_post_tag']
+	// ) {
+	// 	echo '<footer class="cmsms_post_footer entry-meta">';
+	// 		cmsms_post_date('post');
 		
-			cmsms_post_author('post');
+	// 		cmsms_post_author('post');
 			
-			cmsms_post_category('post');
+	// 		cmsms_post_category('post');
 			
-			cmsms_post_tags('post');
-		echo '</footer>';
-	}
+	// 		cmsms_post_tags('post');
+	// 	echo '</footer>';
+	// }
 	
 	
 	echo '<div class="cmsms_post_content entry-content">' . "\n";

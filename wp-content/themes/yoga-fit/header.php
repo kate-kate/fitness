@@ -231,7 +231,13 @@ if (CMSMS_WOOCOMMERCE) {
 	<div class="header_mid" data-height="<?php echo esc_attr($cmsms_option[CMSMS_SHORTNAME . '_header_mid_height']); ?>">
 		<div class="header_mid_outer">
 			<div class="header_mid_inner">
-				<div class="logo_wrap"><?php cmsms_logo(); ?></div>
+				<div class="logo_wrap">
+					<?php
+						if (is_page('')) {
+							cmsms_logo();
+						}
+					?>
+				</div>
 					<div class="resp_nav_wrap">
 						<div class="resp_nav_wrap_inner">
 							<a class="responsive_nav cmsms_theme_icon_resp_nav" href="javascript:void(0);"></a>
@@ -245,10 +251,16 @@ if (CMSMS_WOOCOMMERCE) {
 							
 							'<!-- _________________________ Start Navigation _________________________ -->' . "\n" . 
 							'<nav role="navigation">' . "\t";
+							if (is_page('')) {
+								echo wp_nav_menu($nav_args) . "\r";
+								echo '<style>
+									#iwpmenu_icon {
+										display: none;
+									}
+								</style>';
+							}
 							
-							echo wp_nav_menu($nav_args) . "\r" . 
-							
-							'</nav>' . "\n" . 
+							echo '</nav>' . "\n" . 
 							'<!-- _________________________ Finish Navigation _________________________ -->' . "\n";
 							
 							if ($cmsms_option[CMSMS_SHORTNAME . '_header_search']) {

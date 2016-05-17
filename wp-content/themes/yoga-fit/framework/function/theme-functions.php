@@ -529,7 +529,8 @@ add_action('widgets_init', 'the_widgets_init');
 register_nav_menus(array( 
     'primary' => 	 esc_attr__('Primary Navigation', 'yoga-fit'), 
     'footer' => 	 esc_attr__('Footer Navigation', 'yoga-fit'), 
-	'top_line' => 	 esc_attr__('Top Line Navigation', 'yoga-fit') 
+	'top_line' => 	 esc_attr__('Top Line Navigation', 'yoga-fit'),
+	'short_post_menu' => esc_attr__('Short Post Menu', 'yoga-fit'),
 ));
 
 
