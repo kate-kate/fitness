@@ -233,7 +233,7 @@ if (CMSMS_WOOCOMMERCE) {
 			<div class="header_mid_inner">
 				<div class="logo_wrap">
 					<?php
-						if (is_page('')) {
+						if (is_front_page()) {
 							cmsms_logo();
 						}
 					?>
@@ -251,7 +251,7 @@ if (CMSMS_WOOCOMMERCE) {
 							
 							'<!-- _________________________ Start Navigation _________________________ -->' . "\n" . 
 							'<nav role="navigation">' . "\t";
-							if (is_page('')) {
+							if (is_front_page()) {
 								echo wp_nav_menu($nav_args) . "\r";
 								echo '<style>
 									#iwpmenu_icon {

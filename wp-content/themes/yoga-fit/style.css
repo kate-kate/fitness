@@ -8498,6 +8498,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   font-family: 'Roboto Condensed';
   width: 500px;
   font-size: 14px;
+  color: #3a3a3a;
 }
 
 .cmsms_heading_wrap  .cmsms_heading.right-side-header {
@@ -9269,4 +9270,126 @@ blockquote p {
 
 .homepage-form-wrap .wpcf7-response-output {
   margin-top: -35px;
+}
+
+#about-header {
+  height: 880px;
+  width: 100%;
+}
+
+#about-header .grey-header {
+  color: #636363;
+  font-family: 'Oswald';
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: normal;
+  padding-top: 350px;
+}
+
+#about-header .yellow-header {
+  color: #e4b901;
+  font-family: 'Oswald';
+  font-size: 65px;
+  line-height: 65px;
+  font-weight: normal;
+}
+
+#page #main .headline.cmsms_headline_disabled {
+   padding-top:0;
+}
+
+.book-text p {
+  width: 710px;
+  color: #4c5b68;
+  font-family: 'Roboto Condensed';
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+
+.schedule-blocks {
+  color: #4c5b68;
+}
+
+.schedule-blocks img {
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-right: 17px;
+}
+
+.schedule-blocks br, .experience-blocks br {
+  display: none;
+}
+
+.schedule-blocks .block-type {
+  font-family: 'Oswald';
+  font-size: 18px;
+  margin-right: 17px;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+.schedule-blocks .block-value {
+  font-family: 'Roboto Condensed';
+  font-size: 16px;
+}
+
+.schedule-blocks p {
+  padding-bottom: 50px;
+}
+
+.experience-blocks {
+  margin-top: 20px;
+  color: #192229;
+}
+
+.experience-blocks .middle-text {
+  font-family: 'Oswald';
+  font-size: 18px;
+}
+
+.experience-blocks .little-text {
+  font-family: 'Roboto Condensed';
+  font-size: 16px;
+  font-style: italic;
+  float: right;
+}
+
+.quotation p {
+  padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: Arial;
+  color: #192229;
+}
+
+.quotation {
+  margin-bottom: 40px;
+}
+
+#common-blog .cmsms_default_type {
+  width:100%;
+  padding: 60px 0;
+}
+
+#common-blog .post.cmsms_default_type .cmsms_post_info.yellow-bordered-info,
+#common-blog .post.cmsms_default_type .cmsms_post_cont_wrap {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#common-blog .cmsms_post_content p:last-of-type {
+  border-bottom: none;
+}
+
+#common-blog .post.cmsms_default_type .cmsms_post_info.yellow-bordered-info {
+  margin: 0 30px 0 0;
+}
+
+#common-blog .post.cmsms_default_type .cmsms_post_cont_wrap {
+  width:50%;
+}
+
+#menu-short-post-menu ul li:before {
+  content: '';
 }

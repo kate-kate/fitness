@@ -355,7 +355,7 @@ function cmsms_page_heading() {
 	";
 	
 	
-	if ($cmsms_heading != 'disabled' && !is_home()) {
+	if ($cmsms_heading != 'disabled' && is_single()) {
 		echo "<div class=\"top_img cmsms_color_scheme_{$cmsms_heading_scheme}\">
 			<div class=\"top_img_height\"></div>
 			<div class=\"headline\">
