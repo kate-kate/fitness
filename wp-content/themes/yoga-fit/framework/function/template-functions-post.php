@@ -50,7 +50,7 @@ function cmsms_post_date($template_type = 'page', $layout_type = 'default', $sho
 	if ($template_type == 'page') {
 		if ($layout_type == 'default') {
 			$out = '<abbr class="published cmsms_post_date" title="' . esc_attr(get_the_date()) . '">' . 
-				'<span class="cmsms_day">' . esc_html(get_the_date('j')) . '</span>' . 
+				'<span class="cmsms_day">' . esc_html(get_the_date('d')) . '</span>' . 
 				'<span class="cmsms_month">' . esc_html(get_the_date('F')) . '</span>' . 
 			'</abbr>';
 			//'<abbr class="dn date updated" title="' . esc_attr(get_the_modified_date()) . '">' . 

@@ -8552,6 +8552,10 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   height: 376px;
 }
 
+.thumb-bg {
+  padding: 376px 330px 0 0;
+}
+
 .post.cmsms_default_type .yellow-bordered-info .preloader {
   padding-bottom:376px;
 }
@@ -8692,6 +8696,20 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   width:1170px;
 }
 
+#common-blog .thumb-bg {
+  padding: 252px 468px 0 0;
+}
+
+#common-blog .post.cmsms_default_type .yellow-bordered-info .cmsms_post_date {
+  width:100px;
+  padding: 90px 0;
+}
+
+#footer-main {
+  margin: 100px auto 80px;
+  height: 300px;
+}
+
 @media only screen and (max-width:1920px) {
   .content_wrap {
     width: 900px;
@@ -8702,6 +8720,12 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   .yellow-bordered-info figure {
     width: 248px;
     height: 282px;
+  }
+  #common-blog .thumb-bg {
+    padding: 252px 370px 0 0;
+  }
+  .thumb-bg {
+    padding: 282px 248px 0 0;
   }
   .post.cmsms_default_type .cmsms_post_info.yellow-bordered-info {
     height: 282px;
@@ -8727,9 +8751,18 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 }
 
 @media only screen and (max-width:1280px) {
+  #common-blog .post.cmsms_default_type .yellow-bordered-info .cmsms_post_date {
+    width: 70px;
+  }
   .yellow-bordered-info figure {
     width: 165px;
     height: 188px;
+  }
+  #common-blog .thumb-bg {
+    padding: 252px 300px 0 0;
+  }
+  .thumb-bg {
+    padding: 188px 165px 0 0;
   }
   .post.cmsms_default_type .cmsms_post_info.yellow-bordered-info {
     height: 188px;
@@ -8746,6 +8779,9 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   }
   #fitness-gallery, #footer-socials, #footer-main, #footer-last {
     width:800px;
+  }
+  #footer-main {
+    height: 350px;
   }
 }
 
@@ -8957,11 +8993,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 .footer-soc:first-of-type {
   margin-left: 82%;
-}
-
-#footer-main {
-  margin: 100px auto 0;
-  height: 300px;
 }
 
 #footer-main h2 {
@@ -9387,9 +9418,29 @@ blockquote p {
 }
 
 #common-blog .post.cmsms_default_type .cmsms_post_cont_wrap {
-  width:50%;
+  width:49%;
 }
 
 #menu-short-post-menu ul li:before {
   content: '';
+}
+
+.thumb-bg {
+  display: inline-block;
+  background-size: cover;
+}
+
+#common-blog .post.cmsms_default_type .yellow-bordered-info .cmsms_post_date,
+#common-blog .post.cmsms_default_type .cmsms_post_info.yellow-bordered-info {
+  height: 252px;
+}
+
+#common-blog .post.cmsms_default_type .yellow-bordered-info .cmsms_post_date .cmsms_day {
+  font-size: 36px;
+  line-height: 36px;
+}
+
+#common-blog .post.cmsms_default_type .cmsms_post_date .cmsms_month {
+  font-size: 18px;
+  line-height: 18px;
 }

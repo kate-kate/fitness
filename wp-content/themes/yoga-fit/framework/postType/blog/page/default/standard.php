@@ -46,7 +46,10 @@ if (
 		cmsms_post_date('page', 'default');
 	}
 	if (!post_password_required() && has_post_thumbnail()) {
-		cmsms_thumb(get_the_ID(), 'post-thumbnail', true, false, true, false, true, true, false);
+		echo '<div class="thumb-bg" style="background-image: url(' .
+		    get_the_post_thumbnail_url(get_the_ID()) .
+		 ')"></div>';
+		//cmsms_thumb(get_the_ID(), 'post-thumbnail', true, false, true, false, true, true, false);
 	}
 	echo '</div>';
 	?>
