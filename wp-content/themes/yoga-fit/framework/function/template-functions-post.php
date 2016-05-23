@@ -258,7 +258,8 @@ function cmsms_post_more($cmsms_id, $layout_type = 'default', $show = true) {
 	}
 	
 	
-	$out = '<a class="cmsms_post_read_more' . ($layout_type == 'default' ? ' button' : '') . '" href="' . esc_url(get_permalink($cmsms_id)) . '">' . esc_html($cmsms_post_read_more) . '</a>';
+	$out = '<a class="cmsms_post_read_more' . ($layout_type == 'default' ? ' button' : '') . '" href="' . esc_url(get_permalink($cmsms_id)) . '">Know More</a>';
+	//esc_html($cmsms_post_read_more)
 	
 	
 	if ($show) {

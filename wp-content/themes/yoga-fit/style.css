@@ -8707,7 +8707,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 #footer-main {
   margin: 100px auto 80px;
-  height: 300px;
+  height: 350px;
 }
 
 @media only screen and (max-width:1920px) {
@@ -9443,4 +9443,15 @@ blockquote p {
 #common-blog .post.cmsms_default_type .cmsms_post_date .cmsms_month {
   font-size: 18px;
   line-height: 18px;
+  display: inline-block;
+  border-bottom: 1px solid #fff;
+}
+
+#common-blog .cmsms_post_read_more {
+  border-color: #a5a5a5;
+  border-width: 1px;
+  font-family: 'Oswald';
+  font-size: 14px;
+  color: #4c5b68;
+  font-weight: normal;
 }
