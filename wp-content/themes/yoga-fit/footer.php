@@ -197,7 +197,7 @@ echo '<a href="javascript:void(0);" id="slide_top" class="cmsms_theme_icon_slide
 			}
 			
 			
-			echo '<div id="footer-last"><span class="copyright">' . stripslashes($cmsms_option[CMSMS_SHORTNAME . '_footer_copyright']) . '</span><span style="float:right">Privacy Policy - Terms of Use</span></div>';
+			echo '<div id="footer-last"><span class="copyright">' . stripslashes($cmsms_option[CMSMS_SHORTNAME . '_footer_copyright']) . '</span><span class="privacy-policy">Privacy Policy - Terms of Use</span></div>';
 		?>
 			</div>
 		</div>

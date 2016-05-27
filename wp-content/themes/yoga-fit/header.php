@@ -238,11 +238,13 @@ if (CMSMS_WOOCOMMERCE) {
 						}
 					?>
 				</div>
+				<?php if (is_front_page()) {?>
 					<div class="resp_nav_wrap">
 						<div class="resp_nav_wrap_inner">
 							<a class="responsive_nav cmsms_theme_icon_resp_nav" href="javascript:void(0);"></a>
 						</div>
 					</div>
+				<?php } ?>
 				<?php
 					if ($cmsms_option[CMSMS_SHORTNAME . '_header_styles'] == 's_logo') {
 						echo '<div class="resp_cl"></div>' . 
