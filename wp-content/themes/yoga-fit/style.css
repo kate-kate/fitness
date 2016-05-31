@@ -8459,20 +8459,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
     margin: 0 16.5%;
 }
 
-@media only screen and (max-width: 1680px) {
-  #first-slide {font-size: 10px;}
-  #slider-join-btn {padding-left: 280px !important}
-}
-
-@media only screen and (max-width: 1440px) {
-  .cmsms_row_inner {width:1000px;}
-}
-
-@media only screen and (max-width:1280px) {
-  #slider-join-btn {padding-left: 225px !important}
-  .cmsms_row_inner {width:800px;}
-}
-
 .middle-white-heading {
     font-family: 'Oswald';
     font-size: 17px;
@@ -8706,7 +8692,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 }
 
 #footer-main {
-  margin: 100px auto 56px;
+  margin: 50px auto 56px;
   height: 350px;
 }
 
@@ -8715,10 +8701,29 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   max-width: 500px;
 }
 
-@media only screen and (max-width:1920px) {
+
+@media only screen and (max-width: 1680px) {
+  #first-slide {font-size: 10px;}
+  #slider-join-btn {padding-left: 280px !important}
+}
+
+@media only screen and (min-width: 768px) and (max-width:1920px) {
   .content_wrap {
     width: 900px;
   }
+
+  #footer-main .one_third {
+    width: 30.65%;
+  }
+
+  #footer-main .one_third:first-of-type {
+    margin-left: 0;
+  }
+
+  #footer-main .one_third:last-of-type {
+    margin-right: 0;
+  }
+
 }
 
 @media only screen and (max-width:1440px) {
@@ -8750,8 +8755,8 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
     width: 800px;
   }
 
-  #fitness-gallery, #footer-socials, #footer-main, #footer-last {
-    width:900px;
+  .cmsms_row_inner, #fitness-gallery, #footer-socials, #footer-main, #footer-last {
+    width:1000px;
   }
 
   #thumbnail figure {
@@ -8760,6 +8765,8 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 }
 
 @media only screen and (max-width:1280px) {
+  #slider-join-btn {padding-left: 225px !important}
+
   #common-blog .post.cmsms_default_type .yellow-bordered-info .cmsms_post_date {
     width: 70px;
   }
@@ -8786,7 +8793,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   .cmsms_default_type {
     width: 200px;
   }
-  #fitness-gallery, #footer-socials, #footer-main, #footer-last {
+  .cmsms_row_inner, #fitness-gallery, #footer-socials, #footer-main, #footer-last {
     width:800px;
   }
   #footer-main {
@@ -9044,7 +9051,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 #footer-last {
   margin: 70px auto 10px;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 #footer .widget_recent_entries a {
@@ -9309,7 +9316,7 @@ blockquote p {
 }
 
 #about-header {
-  height: 880px;
+  height: 700px;
   width: 100%;
 }
 
@@ -9474,6 +9481,16 @@ blockquote p {
   line-height: 60px;
 }
 
+#common-blog .entry-header h2,
+#common-blog .entry-header h2 a {
+  line-height: 16px;
+}
+
+#common-blog .entry-header h2 {
+  padding-bottom: 20px;
+}
+
+
 @media only screen and (max-width: 767px) {
   #header .header_mid_inner {
     margin: 0;
@@ -9556,7 +9573,7 @@ blockquote p {
   }
 
   #about-header, .top_img {
-    height: 180px;
+    height: 150px;
   }
 
   #about-header .grey-header {
@@ -9630,4 +9647,24 @@ blockquote p {
     width: 300px;
   }
 
+  #footer-main h2 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  #footer-main .widget_recent_entries {
+    padding-bottom: 0;
+  }
+
+  #footer-last {
+    padding-left: 10px;
+  }
+
+
+  #common-blog .entry-header h2,
+  #common-blog .entry-header h2 a {
+    line-height: 25px;
+    padding-top: 10px;
+  }
 }
+
