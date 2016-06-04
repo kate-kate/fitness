@@ -9666,5 +9666,12 @@ blockquote p {
     line-height: 25px;
     padding-top: 10px;
   }
+
+  .post.cmsms_default_type:first-child {
+    margin:0;
+  }
 }
 
+#menu-short-post-menu li:before {
+  content: no-close-quote;
+}
