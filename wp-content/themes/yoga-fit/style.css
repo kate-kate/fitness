@@ -8603,7 +8603,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   font-family: 'Oswald';
   text-align: center;
   font-size: 18px;
-  padding: 48px 55px 24px;
+  padding: 48px 42px 24px;
   border-bottom: 1px solid #e4e4e4;
   min-height: 133px;
 }
@@ -8668,10 +8668,15 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   background-color: #f9f9f9;  
 }
 
+.pricing-section .custom_html {
+  min-height: 290px;
+}
+
 .pricing-section ol li {
   font-weight: bold;
   text-align: center;
   color: #686868;
+  list-style-type: none;
 }
 
 .pricing-section ol li span {
@@ -9043,7 +9048,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 }
 
 .header_mid #navigation > li > a {
-  /*color: #192229 !important;*/
   font-family: 'Oswald';
   font-weight: lighter;
   font-size: 20px;
@@ -9674,4 +9678,31 @@ blockquote p {
 
 #menu-short-post-menu li:before {
   content: no-close-quote;
+}
+
+.sub_menu_item_wpglobus_menu_switch a {
+  background-color: transparent !important;
+}
+
+.wpglobus_language_name {
+  font-family: 'Oswald';
+  font-size: 20px;
+  font-weight: lighter;
+  color: #000;
+  text-transform: uppercase;
+}
+
+#header #navigation ul > li:first-child > a {
+  padding: 0 25px;
+}
+
+.header_mid #navigation > li > a:hover {
+  color: #000;
+}
+
+.pricing-btn-block img:hover,
+.know-more-btn img:hover {
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  border-radius: 34px;
+  cursor: pointer;
 }
