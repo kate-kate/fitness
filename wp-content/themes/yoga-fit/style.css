@@ -8493,7 +8493,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 .right-side-text {
   margin-left: 64%;
-  text-align: right;
+  text-align: left;
   color: #656565;
   font-family: 'Roboto Condensed';
 }
@@ -8709,7 +8709,12 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 @media only screen and (max-width: 1680px) {
   #first-slide {font-size: 10px;}
-  #slider-join-btn {padding-left: 280px !important}
+  #slider-join-btn {
+    margin-left: 280px !important;
+  }
+  #slider-join-btn:hover {
+    box-shadow: 0 0 10px 5px #e4b901 !important;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width:1920px) {
@@ -8770,7 +8775,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 }
 
 @media only screen and (max-width:1280px) {
-  #slider-join-btn {padding-left: 225px !important}
+  #slider-join-btn {margin-left: 225px !important}
 
   #common-blog .post.cmsms_default_type .yellow-bordered-info .cmsms_post_date {
     width: 70px;
@@ -9705,4 +9710,16 @@ blockquote p {
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
   border-radius: 34px;
   cursor: pointer;
+}
+
+#navigation .wpglobus_flag {
+  background-image: none;
+  padding-left: 0;
+}
+
+#iwpmenu_bar div ul.menu li a {
+    font-family: 'Oswald';
+    font-weight: lighter;
+    font-size: 20px;
+    text-transform: uppercase;
 }
