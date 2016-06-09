@@ -109,16 +109,14 @@ echo '<a href="javascript:void(0);" id="slide_top" class="cmsms_theme_icon_slide
 				<div id="footer-main">
 					<div class="one_third" id="first-column">
 						<h2>MEET VIKTOR</h2>
-						<p>
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem dummy.
-						</p>
+						<p>We want to get to know you and how we can help you with your goals and challenges. Leading by example, my drive is to help you succeed!</p>
 						<p class="contacts">
 							<b>Phone:</b><br/>
 							+32 497 54 15 97
 						</p>
 						<p class="contacts">
 							<b>Web:</b><br/>
-							www.viktorandyou.be
+							www.ViktorDeVries.com
 						</p>
 					</div>
 					<div class="one_third">
@@ -126,8 +124,8 @@ echo '<a href="javascript:void(0);" id="slide_top" class="cmsms_theme_icon_slide
 					</div>
 					<div class="one_third">
 					    <h2>WE ARE HERE</h2>
-					    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-						<?php echo do_shortcode('[cmsms_google_map_markers address_type="address" type="ROADMAP" zoom="14" height_type="auto" scroll_wheel="true" double_click_zoom="true" pan_control="true" zoom_control="true" map_type_control="true" scale_control="true" street_view_control="true" overview_map_control="true" animation_delay="0"][cmsms_google_map_marker address_type="address" address="Broekstraat, 67, 9150, Rupelmonde"][/cmsms_google_map_marker][/cmsms_google_map_markers]');?>
+					    <p>Our home offices are located in Antwerp and Sint - Niklaas, don’t let that hold you back. Wherever you’re located, we’re more then happy guiding you to a more active and healthy life.</p>
+						<?php echo do_shortcode('[cmsms_google_map_markers address_type="address" type="ROADMAP" zoom="14" height_type="auto" scroll_wheel="true" double_click_zoom="true" animation_delay="0"][cmsms_google_map_marker address_type="address" address="Stuurstraat, 121, 9120, Haasdonk, Belgium"][/cmsms_google_map_marker][/cmsms_google_map_markers]');?>
 					</div>
 				</div>
 		<?php 

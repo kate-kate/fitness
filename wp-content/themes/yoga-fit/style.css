@@ -8980,7 +8980,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 #credentials {
   margin-top: 25px;
-  margin-left: 20px;
 }
 
 #credentials img {
@@ -9171,7 +9170,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 
 .top_img {
   height: 870px;
-  background-image: url('img/single-post-header.png');
+  background-image: url('img/single-post-header2.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -9331,6 +9330,15 @@ blockquote p {
 
 #about-header .grey-header {
   color: #636363;
+  font-family: 'Oswald';
+  font-size: 75px;
+  line-height: 75px;
+  font-weight: normal;
+  padding-top: 350px;
+}
+
+#about-header .white-header {
+  color: #fff;
   font-family: 'Oswald';
   font-size: 75px;
   line-height: 75px;
