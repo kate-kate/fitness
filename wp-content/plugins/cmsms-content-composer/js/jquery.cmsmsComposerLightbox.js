@@ -2090,10 +2090,14 @@
 				return (typeof content === 'string') ? content.replace(/&#60;br\s?\/?&#62;/g, "\n").replace(/&#8243;/g, '"').replace(/&#8242;/g, "'").replace(/<br\s?\/?>/g, "\n").replace(/\u2033/g, '"').replace(/\u2032/g, "'") : content;
 			}, 
 			base64Encode : function (content) { 
-				return $.base64.encode(content);
+				$.base64.utf8encode = true;
+				
+				return $.base64.btoa(content);
 			}, 
 			base64Decode : function (content) { 
-				return $.base64.decode(content);
+				$.base64.utf8decode = true;
+				
+				return $.base64.atob(content);
 			}, 
 			multiAddControls : function (el) { 
 				el.prepend('<span class="cmsms_multi_handle admin-icon-move" />');

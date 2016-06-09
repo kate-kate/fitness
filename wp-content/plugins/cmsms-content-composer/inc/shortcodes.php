@@ -3272,6 +3272,7 @@ function cmsms_button($atts, $content = null) {
 		$link = $button_link;
 	}
 	
+	$link = str_replace('¤','&amp;curren', $link);
 	
 	$out .= '<div id="cmsms_button_' . $unique_id . '" class="button_wrap">' . 
 		'<a href="' . $link . '" class="cmsms_button' . 
