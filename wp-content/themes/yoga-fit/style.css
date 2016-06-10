@@ -9281,7 +9281,7 @@ blockquote p {
 }
 
 .cmsms_post_content p:last-of-type {
-  margin-bottom: 
+  margin-bottom: 20px;
 }
 
 .tribe-list-widget a {
@@ -9765,4 +9765,8 @@ blockquote p {
 #learn-more-black img {
   margin-left: 20px;
   margin-bottom: 4px;
+}
+
+.ssba img {
+  margin-right: 28px;
 }

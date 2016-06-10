@@ -91,17 +91,17 @@ echo '<a href="javascript:void(0);" id="slide_top" class="cmsms_theme_icon_slide
 				    <div id="footer-socials">
 						<div class="footer-soc">
 							<a href="#">
-								<img src="http://95.213.237.235/wp-content/uploads/2016/04/footer-fb.png" />
+								<img src="<?php echo get_template_directory_uri() ?>/img/footer-fb.png" />
 							</a>
 						</div>
 						<div class="footer-soc">
 							<a href="#">
-								<img src="http://95.213.237.235/wp-content/uploads/2016/04/footer-tweet.png" />
+								<img src="<?php echo get_template_directory_uri() ?>/img/footer-tweet.png" />
 							</a>
 						</div>
 						<div class="footer-soc">
 							<a href="#">
-								<img src="http://95.213.237.235/wp-content/uploads/2016/04/footer-vimeo.png" />
+								<img src="<?php echo get_template_directory_uri() ?>/img/footer-youtube.png" />
 							</a>
 						</div>
 					</div>
