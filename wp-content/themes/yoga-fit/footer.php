@@ -111,12 +111,10 @@ echo '<a href="javascript:void(0);" id="slide_top" class="cmsms_theme_icon_slide
 						<h2>MEET VIKTOR</h2>
 						<p>We want to get to know you and how we can help you with your goals and challenges. Leading by example, my drive is to help you succeed!</p>
 						<p class="contacts">
-							<b>Phone:</b><br/>
-							+32 497 54 15 97
+							<b>Call us:</b> +32 497 54 15 97
 						</p>
 						<p class="contacts">
-							<b>Web:</b><br/>
-							www.ViktorDeVries.com
+							<b>Email us:</b>	www.ViktorDeVries.com
 						</p>
 					</div>
 					<div class="one_third">

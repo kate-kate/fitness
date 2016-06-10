@@ -8630,6 +8630,11 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
   cursor: pointer;
   border-color: transparent;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .price-block {
@@ -9091,8 +9096,7 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
 }
 
 #footer .widget_recent_entries ul li {
-  background: url('img/footer-recent.png') no-repeat left top;
-  padding: 5px 0px 10px 70px;
+  padding: 0;
   margin-bottom: 30px;
 }
 
@@ -9755,7 +9759,14 @@ blockquote p {
 }
 
 #learn-more-black:hover {
-  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  background-color: #e4b901;
+  color: #fff;
+  /*box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);*/
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 #learn-more-black br {
@@ -9769,4 +9780,9 @@ blockquote p {
 
 .ssba img {
   margin-right: 28px;
+}
+
+#header #navigation > li:before {
+  content: '|';
+  font-size: 18px;
 }
