@@ -72,7 +72,6 @@ if (have_posts()) : the_post();
 	if ($cmsms_option[CMSMS_SHORTNAME . '_blog_post_nav_box']) {
 		cmsms_prev_next_posts();
 	}
-
 	
 	
 	if ($cmsms_post_sharing_box == 'true') {

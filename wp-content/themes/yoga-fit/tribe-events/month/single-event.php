@@ -8,7 +8,7 @@
  * @package TribeEventsCalendar
  * 
  * @cmsms_package 	Yoga Fit
- * @cmsms_version 	1.0.3
+ * @cmsms_version 	1.0.5
  *
  */
 
@@ -197,10 +197,14 @@ $title    = get_the_title( $post );
 
 $image_src = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'square-thumb');
 
-$additional_data = array( 
-	'imageSrc' => 			$image_src[0], 
-	'imageTooltipSrc' => 	$image_src[0] 
-);
+if ($image_src) {
+	$additional_data = array( 
+		'imageSrc' => 			$image_src[0], 
+		'imageTooltipSrc' => 	$image_src[0] 
+	);
+} else {
+	$additional_data = array();
+}
 
 ?>
 

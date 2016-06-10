@@ -12,6 +12,11 @@
  * @cmsms_version 	1.0.0
  */
 
+global $product;
+
+// Ensure visibility
+if ( ! $product || ! $product->is_visible() ) return;
+ 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }

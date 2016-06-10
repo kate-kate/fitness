@@ -1,7 +1,7 @@
 /**
  * @package 	WordPress
  * @subpackage 	Yoga Fit
- * @version		1.0.0
+ * @version		1.0.5
  * 
  * Theme Custom Scripts
  * Created by CMSMasters
@@ -902,7 +902,7 @@ jQuery(document).ready(function() {
 	(function ($) { 
 		$(window).load(function () { 
 			var inViewNav = 			$('#navigation'), 
-				inViewSelector = 		inViewNav.find('a[href*=#]'), 
+				inViewSelector = 		inViewNav.find('a[href*="#"]'), 
 				inViewBlocks = 			[], 
 				siteURL = 				cmsms_script.site_url;
 			
@@ -974,9 +974,9 @@ jQuery(document).ready(function() {
 					min : 		(inViewHeight / 2) - (winHeight - inViewTop + headerOffsetRebuild), 
 					max : 		inViewTop + (inViewHeight / 3) + headerOffsetRebuild, 
 					onEnter : function (el, pos) { 
-						inViewNav.find('> li.menu-item.current-menu-item').removeClass('current-menu-item');
+						inViewNav.find('li.menu-item.current-menu-item').removeClass('current-menu-item');
 						
-						inViewNav.find('> li.menu-item.current-menu-ancestor').removeClass('current-menu-ancestor');
+						inViewNav.find('li.menu-item.current-menu-ancestor').removeClass('current-menu-ancestor');
 						
 						
 						inViewSelector.each(function () { 
@@ -991,7 +991,7 @@ jQuery(document).ready(function() {
 			// Scroll to Section on Page Load if Hash Exists or Else add Current Menu Item Class to First Navigation Item
 			if (window.location.hash && $('body').find('div' + window.location.hash + '.cmsms_row_outer_parent').length > 0) {
 				var headerOffsetRebuild = 	rebuildHeaderOffset($('body').find('div' + window.location.hash + '.cmsms_row_outer_parent').offset().top), 
-					currentNavItem = 		inViewNav.find('> li.menu-item > a[href=' + window.location.hash + ']');
+					currentNavItem = 		inViewNav.find('> li.menu-item > a[href="' + window.location.hash + '"]');
 				
 				
 				if (currentNavItem.length > 0 && currentNavItem.parents('li').is(':not(.current-menu-item)')) {
@@ -1029,7 +1029,7 @@ jQuery(document).ready(function() {
 			}
 			
 			// Scroll to Sections on Link Click
-			$('nav a[href*=#], a.ls-l, .hash-link a, a.hash-link').click(function () { 
+			$('nav a[href*="#"], a.ls-l, .hash-link a, a.hash-link').on('click', function () { 
 				var linkHash = 				this.hash, 
 					linkHref = 				$(this).attr('href'), 
 					rowExists = 			$('body').find('div' + linkHash + '.cmsms_row_outer_parent'), 

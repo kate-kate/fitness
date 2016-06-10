@@ -2,7 +2,7 @@
 /**
  * @package 	WordPress
  * @subpackage 	Yoga Fit
- * @version		1.0.4
+ * @version		1.0.5
  * 
  * TGM-Plugin-Activation 2.5.2
  * Created by CMSMasters
@@ -40,7 +40,7 @@ function cmsms_register_theme_plugins() {
 			'slug'					=> 'cmsms-mega-menu', 
 			'source'				=> get_template_directory_uri() . '/framework/admin/inc/plugins/cmsms-mega-menu.zip', 
 			'required'				=> true, 
-			'version'				=> '1.2.3', 
+			'version'				=> '1.2.4', 
 			'force_activation'		=> false, 
 			'force_deactivation' 	=> true 
 		), 
@@ -49,7 +49,7 @@ function cmsms_register_theme_plugins() {
 			'slug' 					=> 'LayerSlider', 
 			'source'				=> get_template_directory_uri() . '/framework/admin/inc/plugins/LayerSlider.zip', 
 			'required'				=> false, 
-			'version'				=> '5.6.2', 
+			'version'				=> '5.6.5', 
 			'force_activation'		=> false, 
 			'force_deactivation' 	=> false 
 		), 
@@ -58,7 +58,7 @@ function cmsms_register_theme_plugins() {
 			'slug' 					=> 'revslider', 
 			'source'				=> get_template_directory_uri() . '/framework/admin/inc/plugins/revslider.zip', 
 			'required'				=> false, 
-			'version'				=> '5.1.6', 
+			'version'				=> '5.2.5', 
 			'force_activation'		=> false, 
 			'force_deactivation' 	=> false 
 		), 

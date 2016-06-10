@@ -1,7 +1,7 @@
 /**
  * @package 	WordPress
  * @subpackage 	Yoga Fit
- * @version 	1.0.4
+ * @version 	1.0.5
  * 
  * Modes & Functions for jQuery Isotope Plugin
  * Created by CMSMasters
@@ -434,6 +434,8 @@ function startBlog(id, layout, layoutMode, url, orderby, order, count, categorie
 	
 	
 	blogContainer.find('.cmsms_post_loader').bind('click', function () { 
+		blogContainer.find('.cmsms_wrap_more_posts').slideUp('fast');
+		
 		jQuery.ajax( { 
 			type : 		'POST', 
 			dataType : 	'html', 
@@ -459,6 +461,8 @@ function startBlog(id, layout, layoutMode, url, orderby, order, count, categorie
 						
 						
 						blogContainer.find('.cmsms_wrap_more_posts').hide();
+					} else {
+						blogContainer.find('.cmsms_wrap_more_posts').slideDown('fast');
 					}
 					
 					
@@ -709,6 +713,8 @@ function startPortfolio(id, layout, layoutMode, url, orderby, order, count, cate
 	
 	
 	portfolioContainer.find('.cmsms_project_loader').bind('click', function () { 
+		portfolioContainer.find('.cmsms_wrap_more_projects').slideUp('fast');
+		
 		jQuery.ajax( { 
 			type : 		'POST', 
 			dataType : 	'html', 
@@ -734,6 +740,8 @@ function startPortfolio(id, layout, layoutMode, url, orderby, order, count, cate
 						
 						
 						portfolioContainer.find('.cmsms_wrap_more_projects').hide();
+					} else {
+						portfolioContainer.find('.cmsms_wrap_more_projects').slideDown('fast');
 					}
 					
 					
@@ -825,26 +833,25 @@ function startGallery(id, gallery_type, gallery_count, gallery_arr) {
 	
 	ilightbox_run = gallery.find('[rel^="ilightbox["]').iLightBox(ilightbox_settings);
 	
-	
-	if (gallery_count !== 'false' && gallery_arr !== 'false') {
+	if (gallery_count !== 'false' && gallery_arr !== 'false') {		
 		galleryContainer.find('.cmsms_gallery_items_loader').on('click', function () {
 			gallery_items = gallery_arr.splice(0, gallery_count);
 			
 			
 			jQuery(gallery_items).each(function () {
-				gallery_new_item = jQuery(this.replace(/cmsms_gallery_item/g, 'cmsms_gallery_item shortcode_animated'));
+				gallery.isotope('insert', jQuery(this));
 				
 				
-				gallery.isotope('insert', gallery_new_item);
-			});
+				jQuery(this.replace(/cmsms_gallery_item/g, 'cmsms_gallery_item shortcode_animated'));
+				
+				
+				jQuery(this).imagesLoaded(function () {
+					reArrangePosts(gallery, true);
+				} );
+			} );
 			
 			
 			ilightbox_run.refresh();
-			
-			
-			setTimeout(function () { 
-				reArrangePosts(gallery, true);
-			}, 300);
 			
 			
 			if (gallery_arr.length == 0) {

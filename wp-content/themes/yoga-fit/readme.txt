@@ -1,7 +1,7 @@
 /**
  * @package 	WordPress
  * @subpackage 	Yoga Fit
- * @version		1.0.4
+ * @version		1.0.5
  * 
  * Theme Information
  * Created by CMSMasters
@@ -21,6 +21,33 @@ Theme Settings - Colors and click "Save" in any tab here.
 -----------------------------------------------------------------------
 
 
+Version 1.0.5: files operations:
+
+ Theme Files edited:
+
+	yoga-fit\css\retina.css
+	yoga-fit\framework\admin\inc\plugin-activator.php
+	yoga-fit\framework\admin\inc\plugins\cmsms-mega-menu.zip
+	yoga-fit\framework\admin\inc\plugins\LayerSlider.zip
+	yoga-fit\framework\admin\inc\plugins\revslider.zip
+	yoga-fit\js\jquery.isotope.mode.js
+	yoga-fit\js\jquery.script.js
+	yoga-fit\readme.txt
+	yoga-fit\style.css
+	yoga-fit\tribe-events\month\single-event.php
+  
+  Proceed to wp-content\plugins\cmsms-mega-menu 
+  and update all files in this folder to version 1.2.4
+  
+  Proceed to wp-content\plugins\LayerSlider 
+  and update all files in this folder to version 5.6.5
+  
+  Proceed to wp-content\plugins\revslider 
+  and update all files in this folder to version 5.2.5
+
+
+
+--------------------------------------
 Version 1.0.4: files operations:
 
  Theme Files edited:

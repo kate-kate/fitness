@@ -4,7 +4,7 @@ Theme URI: http://cmsmasters.net/yoga-fit/
 Author: cmsmasters
 Author URI: http://cmsmasters.net/
 Description: Yoga Fit Wordpress Theme is amazing. Unlimited design solutions can be created due to a great flexibility of settings and shortcode options. 99+ Custom Shortcodes are added through a Visual content composer with  drag'n'drop function. You can set a completely custom layout that stretches to any width, set your content in many columnns and assign animation many parts of your content. Yoga Fit theme has a Portfolio that can be set to any sort of a grid or a Masonry puzzle with variable paddings for elemens, while Blog can have several different layouts too. Custom Profiles and Projects post types offer an optimal way to present your content, while valid code, SEO-optimized structure and microformats guarantee this content is easily crawled and indexed by search engines. Yoga Fit comes with a Custom Mega Menu plugin, a really functional Form Builder and premium Revolution and Layer Slider plugins included for free. Multilanguage, RTL-ready, plugin-compatible and professionally-supported theme will make every day you work with your website be a Yoga Fit!
-Version: 1.0.4
+Version: 1.0.5
 License:
 License URI:
 Text Domain: yoga-fit
@@ -1394,7 +1394,6 @@ nav > div > ul a {
 #header .header_top .header_top_inner nav > div > ul > li ul ul {
   top: -10px;
 }
-
 #header .header_mid .logo_wrap {
   display: block;
   float: left;
@@ -8451,7 +8450,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
     opacity: 0;
   }
 }
-
 
 /* my custom styles */
 

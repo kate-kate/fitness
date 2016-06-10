@@ -1,7 +1,7 @@
 /**
  * @package 	WordPress
  * @subpackage 	Yoga Fit
- * @version		1.0.0
+ * @version		1.0.5
  * 
  * High Resolution (Retina) Displays CSS Rules
  * Created by CMSMasters
@@ -19,7 +19,7 @@
 		display:none;
 	}
 	
-	#footer .logo .footer_logo_retina,
+	#footer .footer_inner .logo > .footer_logo_retina,
 	#header .header_mid .logo_wrap .logo .logo_retina {
 		display:inline-block;
 	}

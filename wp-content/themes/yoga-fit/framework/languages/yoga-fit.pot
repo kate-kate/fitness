@@ -57,7 +57,7 @@ msgstr ""
 #: archive.php:102
 #: search.php:119
 msgid "Read More"
-msgstr "Know more"
+msgstr ""
 
 #: comments.php:14
 msgid "Please do not load this page directly. Thanks!"
