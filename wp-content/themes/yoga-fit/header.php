@@ -238,12 +238,19 @@ if (CMSMS_WOOCOMMERCE) {
 						}
 					?>
 				</div>
-				<?php if (is_front_page()) {?>
-					<div class="resp_nav_wrap">
-						<div class="resp_nav_wrap_inner">
-							<a class="responsive_nav cmsms_theme_icon_resp_nav" href="javascript:void(0);"></a>
-						</div>
+				<div class="resp_nav_wrap">
+					<div class="resp_nav_wrap_inner">
+						<a class="responsive_nav cmsms_theme_icon_resp_nav" href="javascript:void(0);"></a>
 					</div>
+				</div>
+				<?php if (!is_front_page()) {?>
+					<style>
+						@media only screen and (min-width: 350px) {
+							.resp_nav_wrap {
+								display: none;
+							}
+						}
+					</style>
 				<?php } ?>
 				<?php
 					if ($cmsms_option[CMSMS_SHORTNAME . '_header_styles'] == 's_logo') {
@@ -253,16 +260,29 @@ if (CMSMS_WOOCOMMERCE) {
 							
 							'<!-- _________________________ Start Navigation _________________________ -->' . "\n" . 
 							'<nav role="navigation">' . "\t";
-							if (is_front_page()) {
 								echo wp_nav_menu($nav_args) . "\r";
+							if (is_front_page()) {
 								echo '<style>
 									#iwpmenu_icon {
 										display: none;
 									}
 								</style>';
-							}
+							} else { ?>
+								<style>
+									@media only screen and (max-width: 350px) {
+										#iwpmenu_icon {
+											display: none;
+										}
+									}
+									@media only screen and (min-width: 350px) {
+										#navigation {
+											display: none;
+										}
+									}
+								</style>
+							<?php } ?>
 							
-							echo '</nav>' . "\n" . 
+							<?php echo '</nav>' . "\n" . 
 							'<!-- _________________________ Finish Navigation _________________________ -->' . "\n";
 							
 							if ($cmsms_option[CMSMS_SHORTNAME . '_header_search']) {
