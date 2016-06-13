@@ -8565,7 +8565,8 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   padding: 5px 0 0;
 }
 
-.cmsms_default_type .cmsms_post_title a {
+.cmsms_default_type .cmsms_post_title a,
+h2.cmsms_search_post_title a {
   font-family: 'Oswald';
   font-size: 20px;
   color: #464646;
@@ -8731,9 +8732,6 @@ html.csstransitions .cmsms_stats.stats_mode_bars.shortcode_animated .cmsms_stat_
   #first-slide {font-size: 10px;}
   #slider-join-btn {
     margin-left: 280px !important;
-  }
-  #slider-join-btn:hover {
-    box-shadow: 0 0 10px 5px #e4b901 !important;
   }
 }
 
@@ -9522,7 +9520,8 @@ blockquote p {
 }
 
 #common-blog .entry-header h2,
-#common-blog .entry-header h2 a {
+#common-blog .entry-header h2 a,
+.cmsms_search_post_title  {
   line-height: 16px;
 }
 
@@ -9758,14 +9757,20 @@ blockquote p {
   padding: 16px 30px;
 }
 
-#learn-more-black:hover {
-  background-color: #e5ba00;
+#learn-more-black:hover, #slider-join-btn:hover, 
+.cmsms_post_read_more:hover {
+  background-color: #e5ba00 !important;
   /*box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);*/
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+#common-blog .cmsms_post_read_more:hover {
+  color: #fff;
+  border-color: #e5ba00;
 }
 
 #learn-more-black br {
@@ -9783,7 +9788,7 @@ blockquote p {
 
 #header #navigation > li:before {
   content: '|';
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .top_img .headline {
@@ -9792,4 +9797,28 @@ blockquote p {
 
 .enable_logo_side #header #navigation > li > a:hover {
   color: #e4b901;
+}
+
+#iwpmenu_bar div ul li {
+  border-left: 1px solid #fff;
+  line-height: 12px;
+  padding: 0 15px;
+}
+
+#iwpmenu_bar div ul li:first-of-type {
+  border-left: none;
+}
+
+.cmsms_search .cmsms_search_post .cmsms_search_post_cont .cmsms_search_post_footer {
+  border-top-width: 1px;
+}
+
+.cmsms_search_post_footer .button {
+  border-width: 1px;
+}
+
+@media only screen and (max-width: 350px) {
+  #contact-list {
+    width: 100%;
+  }
 }

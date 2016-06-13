@@ -63,10 +63,10 @@ else :
 							esc_html(get_the_date()) . 
 						'</abbr>';
 						
-						echo'<span class="cmsms_search_post_user_name">' . 
-							esc_html__('By', 'yoga-fit') . ' ' . 
-							'<a href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '" rel="author" title="' . esc_attr__('Posts by', 'yoga-fit') . ' ' . esc_attr(get_the_author_meta('display_name')) . '">' . esc_html(get_the_author_meta('display_name')) . '</a>' . 
-						'</span>';
+						// echo'<span class="cmsms_search_post_user_name">' . 
+						// 	esc_html__('By', 'yoga-fit') . ' ' . 
+						// 	'<a href="' . esc_url(get_author_posts_url(get_the_author_meta('ID'))) . '" rel="author" title="' . esc_attr__('Posts by', 'yoga-fit') . ' ' . esc_attr(get_the_author_meta('display_name')) . '">' . esc_html(get_the_author_meta('display_name')) . '</a>' . 
+						// '</span>';
 					
 					
 					if (
@@ -102,9 +102,9 @@ else :
 						'</span>';
 					}
 					
-					if (comments_open()) {
-						echo '<a class="cmsms_search_post_comments cmsms_theme_icon_comment" href="' . esc_url(get_comments_link()) . '" title="' . esc_attr__('Comment on', 'yoga-fit') . ' ' . esc_attr(get_the_title()) . '">' . esc_html(get_comments_number()) . '</a>';
-					}
+					// if (comments_open()) {
+					// 	echo '<a class="cmsms_search_post_comments cmsms_theme_icon_comment" href="' . esc_url(get_comments_link()) . '" title="' . esc_attr__('Comment on', 'yoga-fit') . ' ' . esc_attr(get_the_title()) . '">' . esc_html(get_comments_number()) . '</a>';
+					// }
 					
 					echo '</div>';
 				}
