@@ -9751,16 +9751,15 @@ blockquote p {
 #learn-more-black {
   display: block;
   border-radius: 50px;
-  border: 1px solid #68707e;
-  color: #9aa3ba;
+  border: 1px solid #fff;
+  color: #fff;
   font-family: 'Roboto Condensed';
   font-size: 16px;
   padding: 16px 30px;
 }
 
 #learn-more-black:hover {
-  background-color: #e4b901;
-  color: #fff;
+  background-color: #e5ba00;
   /*box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);*/
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -9785,4 +9784,12 @@ blockquote p {
 #header #navigation > li:before {
   content: '|';
   font-size: 18px;
+}
+
+.top_img .headline {
+  display: none;
+}
+
+.enable_logo_side #header #navigation > li > a:hover {
+  color: #e4b901;
 }

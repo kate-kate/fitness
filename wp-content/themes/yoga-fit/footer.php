@@ -114,7 +114,7 @@ echo '<a href="javascript:void(0);" id="slide_top" class="cmsms_theme_icon_slide
 							<b>Call us:</b> +32 497 54 15 97
 						</p>
 						<p class="contacts">
-							<b>Email us:</b>	www.ViktorDeVries.com
+							<b>Email us:</b> info@ViktorDeVries.com
 						</p>
 					</div>
 					<div class="one_third">
