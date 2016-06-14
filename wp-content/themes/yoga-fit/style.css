@@ -9838,3 +9838,7 @@ blockquote p {
 #pricing-blocks button:hover {
   background-color: #e5ba00;
 }
+
+#pricing-blocks .pricing-yellow button:hover {
+  background-color: #000;
+}
