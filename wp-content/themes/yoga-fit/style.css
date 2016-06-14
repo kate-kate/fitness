@@ -9822,3 +9822,17 @@ blockquote p {
     width: 100%;
   }
 }
+
+#pricing-blocks button {
+  background-color: inherit;
+  border: 1px solid #fff;
+  font-family: 'Roboto Condensed';
+  font-size: 13px;
+  font-weight: normal;
+  padding: 6px 28px;
+  color: #fff;
+}
+
+#pricing-blocks button:hover {
+  background-color: #e5ba00;
+}
