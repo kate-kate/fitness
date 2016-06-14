@@ -485,10 +485,23 @@ function the_widgets_init() {
 
     register_sidebar(
     	array(
+    		'name' => 'Footer area 1',
+    		'id' => 'footer1'
+    	)
+    );
+    register_sidebar(
+    	array(
     		'name' => 'Footer area 2',
     		'id' => 'footer2'
     	)
     );
+    register_sidebar(
+    	array(
+    		'name' => 'Footer area 3',
+    		'id' => 'footer3'
+    	)
+    );
+
 
     register_sidebar(
     	array(

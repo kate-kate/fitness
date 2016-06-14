@@ -9054,7 +9054,7 @@ h2.cmsms_search_post_title a {
   font-size: 16px;
 }
 
-#first-column p:first-of-type {
+#first-column li:first-of-type {
   border-bottom: 1px solid #2e3034;
 }
 
@@ -9096,6 +9096,10 @@ h2.cmsms_search_post_title a {
 #footer .widget_recent_entries ul li {
   padding: 0;
   margin-bottom: 30px;
+}
+
+#footer-main .widget {
+  list-style-type: none;
 }
 
 #sign-up-form {
@@ -9493,17 +9497,14 @@ blockquote p {
   border-bottom: 1px solid #fff;
 }
 
-#common-blog .cmsms_post_read_more {
+#common-blog .cmsms_post_read_more,
+.cmsms_search_post_footer .button {
   border-color: #a5a5a5;
   border-width: 1px;
   font-family: 'Oswald';
   font-size: 14px;
   color: #4c5b68;
   font-weight: normal;
-}
-
-#common-blog .cmsms_post_read_more:hover {
-  background-color: white;
 }
 
 .header-short-text {
@@ -9809,8 +9810,9 @@ blockquote p {
   border-left: none;
 }
 
-.cmsms_search .cmsms_search_post .cmsms_search_post_cont .cmsms_search_post_footer {
+.middle_content .cmsms_search .cmsms_search_post .cmsms_search_post_cont .cmsms_search_post_footer {
   border-top-width: 1px;
+  border-top-color: #a5a5a5;
 }
 
 .cmsms_search_post_footer .button {
