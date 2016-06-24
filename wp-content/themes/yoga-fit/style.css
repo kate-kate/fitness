@@ -9147,6 +9147,7 @@ h2.cmsms_search_post_title a {
   font-size: 22px;
   color: #000;
   font-weight: bold;
+  margin: 0 auto;
 }
 
 #sign-up-form li.widget_text {
@@ -9516,7 +9517,7 @@ blockquote p {
 }
 
 .big-yellow-header {
-  font-size: 60px;
+  font-size: 56px;
   line-height: 60px;
 }
 
@@ -9532,6 +9533,14 @@ blockquote p {
 
 
 @media only screen and (max-width: 767px) {
+  #sign-up-right {
+    display: none;
+  }
+
+  #sign-up-form {
+    width: 440px;
+  }
+
   #header .header_mid_inner {
     margin: 0;
   }
@@ -9548,7 +9557,7 @@ blockquote p {
     height: 1400px;
   }
 
-  #slider-wrapper, #join-the-family, #credentials {
+  #join-the-family, #credentials {
     display: none;
   }
 
@@ -9634,7 +9643,7 @@ blockquote p {
   }
 
   #book-section.cmsms_row_outer_parent {
-    padding-top: 370px !important
+    padding-top: 370px !important;
   }
 
   #book-section .cmsms_heading_wrap {
@@ -9819,9 +9828,37 @@ blockquote p {
   border-width: 1px;
 }
 
+
+#book-section, #book-section-nl {
+  background-size: 42%;
+  background-image: url('/wp-content/uploads/2016/05/Untitled-1.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+
+#book-section-nl {
+  background-image: url('/wp-content/uploads/2016/05/Untitled-2.png');
+}
+
 @media only screen and (max-width: 350px) {
   #contact-list {
     width: 100%;
+  }
+
+  #sign-up-left, #sign-up-form {
+    width: 280px;
+  }
+
+  #book-section {
+    background-size: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 1680px) {
+  #book-section {
+    padding-bottom: 280px !important;
+    background-size: 38%;
   }
 }
 
@@ -9841,4 +9878,9 @@ blockquote p {
 
 #pricing-blocks .pricing-yellow button:hover {
   background-color: #000;
+}
+
+#slider-wrapper {
+  overflow: hidden;
+  max-height: 750px;
 }
